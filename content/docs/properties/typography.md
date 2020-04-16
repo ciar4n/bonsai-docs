@@ -12,14 +12,14 @@ Style variables to control the text color of an element
 
 Style variables to control the font size of an element
 
-| Shorthand          | Longhand                | Value              |
-| ------------------ | ----------------------- | ------------------ |
-| \-\-size:.8rempx;  | \-\-font-size:.8rempx;  | font-size: .8rem;  |
-| \-\-size:1rempx;   | \-\-font-size:1rempx;   | font-size: 1rem;   |
-| \-\-size:1.2rempx; | \-\-font-size:1.2rempx; | font-size: 1.2rem; |
-| \-\-size:1.5rempx; | \-\-font-size:1.5rempx; | font-size: 1.5rem; |
-| \-\-size:1.8rempx; | \-\-font-size:1.8rempx; | font-size: 1.8rem; |
-| \-\-size:2rempx;   | \-\-font-size:2rempx;   | font-size: 2rem;   |
+| Style Variable   | Value              |
+|------------------|--------------------|
+| \-\-size:.8rem;  | font-size: .8rem;  |
+| \-\-size:1rem;   | font-size: 1rem;   |
+| \-\-size:1.2rem; | font-size: 1.2rem; |
+| \-\-size:1.5rem; | font-size: 1.5rem; |
+| \-\-size:1.8rem; | font-size: 1.8rem; |
+| \-\-size:2rem;   | font-size: 2rem;   |
 
 {{< code lang="html">}}
 <p style="--size:.8rem">How vexingly quick daft zebras jump!</p>
@@ -34,10 +34,10 @@ Style variables to control the font size of an element
 
 Style variables to control the font style of an element.
 
-| Shorthand         | Longhand               | Value               |
-| ----------------- | ---------------------- | ------------------- |
-| \-\-style:normal; | \-\-font-style:normal; | font-style: normal; |
-| \-\-style:italic; | \-\-font-style:italic; | font-style: italic; |
+| Style Variable    | Value               |
+|-------------------|---------------------|
+| \-\-style:normal; | font-style: normal; |
+| \-\-style:italic; | font-style: italic; |
 
 {{< code lang="html" >}}
 <h4 style="--style:normal">How vexingly quick daft zebras jump!</h4>
@@ -49,16 +49,16 @@ Style variables to control the font style of an element.
 
 Style variables to control the letter spacing of an element.
 
-| Shorthand    | Longhand                 | Value                 |
-| ------------ | ------------------------ | --------------------- |
-| \-\-ls:-2px; | \-\-letter-spacing:-2px; | letter-spacing: -2px; |
-| \-\-ls:-1px; | \-\-letter-spacing:-1px; | letter-spacing: -1px; |
-| \-\-ls:1px;  | \-\-letter-spacing:1px;  | letter-spacing: 1px;  |
-| \-\-ls:2px;  | \-\-letter-spacing:2px;  | letter-spacing: 2px;  |
-| \-\-ls:3px;  | \-\-letter-spacing:3px;  | letter-spacing: 3px;  |
-| \-\-ls:4px;  | \-\-letter-spacing:4px;  | letter-spacing: 4px;  |
-| \-\-ls:5px;  | \-\-letter-spacing:5px;  | letter-spacing: 5px;  |
-| \-\-ls:6px;  | \-\-letter-spacing:6px;  | letter-spacing: 6px;  |
+| Style Variable | Value                 |
+|----------------|-----------------------|
+| \-\-ls:-2px;   | letter-spacing: -2px; |
+| \-\-ls:-1px;   | letter-spacing: -1px; |
+| \-\-ls:1px;    | letter-spacing: 1px;  |
+| \-\-ls:2px;    | letter-spacing: 2px;  |
+| \-\-ls:3px;    | letter-spacing: 3px;  |
+| \-\-ls:4px;    | letter-spacing: 4px;  |
+| \-\-ls:5px;    | letter-spacing: 5px;  |
+| \-\-ls:6px;    | letter-spacing: 6px;  |
 
 {{< code lang="html" >}}
 <h4 style="--ls:-1px">How vexingly quick daft zebras jump!</h4>
@@ -75,14 +75,14 @@ Style variables to control the letter spacing of an element.
 
 Style variables to control the line height of an element.
 
-| Shorthand      | Longhand                | Value                |
-|----------------|-------------------------|----------------------|
-| \-\-lh:.8rem;  | \-\-line-height:.8rem;  | line-height: .8rem;  |
-| \-\-lh:1rem;   | \-\-line-height:1rem;   | line-height: 1rem;   |
-| \-\-lh:1.2rem; | \-\-line-height:1.2rem; | line-height: 1.2rem; |
-| \-\-lh:1.5rem; | \-\-line-height:1.5rem; | line-height: 1.5rem; |
-| \-\-lh:1.8rem; | \-\-line-height:1.8rem; | line-height: 1.8rem; |
-| \-\-lh:2rem;   | \-\-line-height:2rem;   | line-height: 2rem;   |
+| Style Variable | Value                |
+|----------------|----------------------|
+| \-\-lh:.8rem;  | line-height: .8rem;  |
+| \-\-lh:1rem;   | line-height: 1rem;   |
+| \-\-lh:1.2rem; | line-height: 1.2rem; |
+| \-\-lh:1.5rem; | line-height: 1.5rem; |
+| \-\-lh:1.8rem; | line-height: 1.8rem; |
+| \-\-lh:2rem;   | line-height: 2rem;   |
 
 {{< code lang="html" >}}
 <p style="--lh:.8rem">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
@@ -98,108 +98,108 @@ Style variables to control the line height of an element.
 
 Style variables to control the style type of a list.
 
-| Shorthand                     | Longhand                                  | Value                                  |
-|-------------------------------|-------------------------------------------|----------------------------------------|
-| \-\-lst:disc;                 | \-\-list-style-type:disc;                 | list-style-type: disc;                 |
-| \-\-lst:armenian;             | \-\-list-style-type:armenian;             | list-style-type: armenian;             |
-| \-\-lst:circle;               | \-\-list-style-type:circle;               | list-style-type: circle;               |
-| \-\-lst:cjk-ideographic;      | \-\-list-style-type:cjk-ideographic;      | list-style-type: cjk-ideographic;      |
-| \-\-lst:decimal;              | \-\-list-style-type:decimal;              | list-style-type: decimal;              |
-| \-\-lst:decimal-leading-zero; | \-\-list-style-type:decimal-leading-zero; | list-style-type: decimal-leading-zero; |
-| \-\-lst:georgian;             | \-\-list-style-type:georgian;             | list-style-type: georgian;             |
-| \-\-lst:hebrew;               | \-\-list-style-type:hebrew;               | list-style-type: hebrew;               |
-| \-\-lst:hiragana;             | \-\-list-style-type:hiragana;             | list-style-type: hiragana;             |
-| \-\-lst:hiragana-iroha;       | \-\-list-style-type:hiragana-iroha;       | list-style-type: hiragana-iroha;       |
-| \-\-lst:katakana;             | \-\-list-style-type:katakana;             | list-style-type: katakana;             |
-| \-\-lst:katakana-iroha;       | \-\-list-style-type:katakana-iroha;       | list-style-type: katakana-iroha;       |
-| \-\-lst:lower-alpha;          | \-\-list-style-type:lower-alpha;          | list-style-type: lower-alpha;          |
-| \-\-lst:lower-greek;          | \-\-list-style-type:lower-greek;          | list-style-type: lower-greek;          |
-| \-\-lst:lower-latin;          | \-\-list-style-type:lower-latin;          | list-style-type: lower-latin;          |
-| \-\-lst:lower-roman;          | \-\-list-style-type:lower-roman;          | list-style-type: lower-roman;          |
-| \-\-lst:none;                 | \-\-list-style-type:none;                 | list-style-type: none;                 |
-| \-\-lst:square;               | \-\-list-style-type:square;               | list-style-type: square;               |
-| \-\-lst:upper-alpha;          | \-\-list-style-type:upper-alpha;          | list-style-type: upper-alpha;          |
-| \-\-lst:upper-greek;          | \-\-list-style-type:upper-greek;          | list-style-type: upper-greek;          |
-| \-\-lst:upper-latin;          | \-\-list-style-type:upper-latin;          | list-style-type: upper-latin;          |
-| \-\-lst:upper-roman;          | \-\-list-style-type:upper-roman;          | list-style-type: upper-roman;          |
+| Style Variable                | Value                                  |
+|-------------------------------|----------------------------------------|
+| \-\-list:disc;                 | list-style-type: disc;                 |
+| \-\-list:armenian;             | list-style-type: armenian;             |
+| \-\-list:circle;               | list-style-type: circle;               |
+| \-\-list:cjk-ideographic;      | list-style-type: cjk-ideographic;      |
+| \-\-list:decimal;              | list-style-type: decimal;              |
+| \-\-list:decimal-leading-zero; | list-style-type: decimal-leading-zero; |
+| \-\-list:georgian;             | list-style-type: georgian;             |
+| \-\-list:hebrew;               | list-style-type: hebrew;               |
+| \-\-list:hiragana;             | list-style-type: hiragana;             |
+| \-\-list:hiragana-iroha;       | list-style-type: hiragana-iroha;       |
+| \-\-list:katakana;             | list-style-type: katakana;             |
+| \-\-list:katakana-iroha;       | list-style-type: katakana-iroha;       |
+| \-\-list:lower-alpha;          | list-style-type: lower-alpha;          |
+| \-\-list:lower-greek;          | list-style-type: lower-greek;          |
+| \-\-list:lower-latin;          | list-style-type: lower-latin;          |
+| \-\-list:lower-roman;          | list-style-type: lower-roman;          |
+| \-\-list:none;                 | list-style-type: none;                 |
+| \-\-list:square;               | list-style-type: square;               |
+| \-\-list:upper-alpha;          | list-style-type: upper-alpha;          |
+| \-\-list:upper-greek;          | list-style-type: upper-greek;          |
+| \-\-list:upper-latin;          | list-style-type: upper-latin;          |
+| \-\-list:upper-roman;          | list-style-type: upper-roman;          |
 
 {{< code lang="html" >}}
-<ul style="--lst:disc">
+<ul style="--list:disc">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:circle">
+<ul style="--list:circle">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:decimal">
+<ul style="--list:decimal">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:decimal-leading-zero">
+<ul style="--list:decimal-leading-zero">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:georgian">
+<ul style="--list:georgian">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:hebrew">
+<ul style="--list:hebrew">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:lower-alpha">
+<ul style="--list:lower-alpha">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:lower-greek">
+<ul style="--list:lower-greek">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:lower-latin">
+<ul style="--list:lower-latin">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:lower-roman">
+<ul style="--list:lower-roman">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:none">
+<ul style="--list:none">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:square">
+<ul style="--list:square">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:upper-alpha">
+<ul style="--list:upper-alpha">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:upper-greek">
+<ul style="--list:upper-greek">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:upper-latin">
+<ul style="--list:upper-latin">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
 </ul>
-<ul style="--lst:upper-roman">
+<ul style="--list:upper-roman">
     <li>Aliquam tincidunt mauris eu risus.</li>
     <li>Vestibulum auctor dapibus neque.</li>
     <li>Nunc dignissim risus id metus.</li>
@@ -211,10 +211,10 @@ Style variables to control the style type of a list.
 
 Style variables to control the style type of a list.
 
-| Shorthand                     | Longhand                           | Value                                  |
-|-------------------------------|------------------------------------|----------------------------------------|
-| \-\-lsp:outside;              | \-\-list-style-position:outside;   | list-style-position: outside;          |
-| \-\-lsp:inside;               | \-\-list-style-position:inside;    | list-style-position: inside;           |
+| Style Variable   | Value                         |
+|------------------|-------------------------------|
+| \-\-lsp:outside; | list-style-position: outside; |
+| \-\-lsp:inside;  | list-style-position: inside;  |
 
 {{< code lang="html" >}}
 <ul style="--lsp:outside">
@@ -233,14 +233,14 @@ Style variables to control the style type of a list.
 
 Style variables to control the text alignment of an element.
 
-| Shorthand       | Longhand               | Value               |
-|-----------------|------------------------|---------------------|
-| \-\-ta:left;    | \-\-text-align:left;   | text-align: left;   |
-| \-\-ta:right;   | \-\-text-align:right;  | text-align: right;  |
-| \-\-ta:center;  | \-\-text-align:center; | text-align: center; |
-| \-\-ta:justify; | \-\-text-align:justify;| text-align: justify;|
-| \-\-ta:start;   | \-\-text-align:start;  | text-align: start;  |
-| \-\-ta:end;     | \-\-text-align:end;    | text-align: end;    |
+| Style Variable  | Value                |
+|-----------------|----------------------|
+| \-\-ta:left;    | text-align: left;    |
+| \-\-ta:right;   | text-align: right;   |
+| \-\-ta:center;  | text-align: center;  |
+| \-\-ta:justify; | text-align: justify; |
+| \-\-ta:start;   | text-align: start;   |
+| \-\-ta:end;     | text-align: end;     |
 
 {{< code lang="html" >}}
 <p style="--ta:left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
@@ -255,17 +255,17 @@ Style variables to control the text alignment of an element.
 
 Style variables to control the text decoration of an element.
 
-| Shorthand                        | Longhand                                      | Value                                      |
-|----------------------------------|-----------------------------------------------|--------------------------------------------|
-| \-\-td:underline;                | \-\-text-decoration:underline;                | text-decoration: underline;                |
-| \-\-td:overline;                 | \-\-text-decoration:overline;                 | text-decoration: overline;                 |
-| \-\-td:line-through;             | \-\-text-decoration:line-through;             | text-decoration: line-through;             |
-| \-\-td:underline overline;       | \-\-text-decoration:underline overline;       | text-decoration: underline overline;       |
-| \-\-td:double underline;         | \-\-text-decoration:double underline;         | text-decoration: double underline;         |
-| \-\-td:dotted underline;         | \-\-text-decoration:dotted underline;         | text-decoration: dotted underline;         |
-| \-\-td:dashed underline;         | \-\-text-decoration:dashed underline;         | text-decoration: dashed underline;         |
-| \-\-td:underline var(--primary); | \-\-text-decoration:underline var(--primary); | text-decoration: underline var(--primary); |
-| \-\-td:dotted underline #aaaaaa; | \-\-text-decoration:dotted underline #cccccc; | text-decoration: dotted underline #cccccc; |
+| Style Variable                   | Value                                      |
+|----------------------------------|--------------------------------------------|
+| \-\-td:underline;                | text-decoration: underline;                |
+| \-\-td:overline;                 | text-decoration: overline;                 |
+| \-\-td:line-through;             | text-decoration: line-through;             |
+| \-\-td:underline overline;       | text-decoration: underline overline;       |
+| \-\-td:double underline;         | text-decoration: double underline;         |
+| \-\-td:dotted underline;         | text-decoration: dotted underline;         |
+| \-\-td:dashed underline;         | text-decoration: dashed underline;         |
+| \-\-td:underline var(--primary); | text-decoration: underline var(--primary); |
+| \-\-td:dotted underline #aaaaaa; | text-decoration: dotted underline #cccccc; |
 
 {{< code lang="html" >}}
 <h5 style="--td:underline">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h5>
@@ -284,11 +284,11 @@ Style variables to control the text decoration of an element.
 
 Style variables to control the text decoration of an element.
 
-| Shorthand             | Longhand                        | Value                        |
-|-----------------------|---------------------------------|------------------------------|
-| \-\-wm:horizontal-tb; | \-\-writing-mode:horizontal-tb; | writing-mode: horizontal-tb; |
-| \-\-wm:vertical-rl;   | \-\-writing-mode:vertical-rl;   | writing-mode: vertical-rl;   |
-| \-\-wm:vertical-lr;   | \-\-writing-mode:vertical-lr;   | writing-mode: vertical-lr;   |
+| Style Variable        | Value                        |
+|-----------------------|------------------------------|
+| \-\-wm:horizontal-tb; | writing-mode: horizontal-tb; |
+| \-\-wm:vertical-rl;   | writing-mode: vertical-rl;   |
+| \-\-wm:vertical-lr;   | writing-mode: vertical-lr;   |
 
 {{< code lang="html" >}}
 <p style="--wm:horizontal-tb; --bg:white; --p:5px;">Hello World!</p>
@@ -300,14 +300,14 @@ Style variables to control the text decoration of an element.
 
 Style variables to control the vertical alignment of an element.
 
-| Shorthand        | Longhand                     | Value                     |
-|------------------|------------------------------|---------------------------|
-| \-\-va:baseline; | \-\-vertical-align:baseline; | vertical-align: baseline; |
-| \-\-va:top;      | \-\-vertical-align:top;      | vertical-align: top;      |
-| \-\-va:middle;   | \-\-vertical-align:middle;   | vertical-align: middle;   |
-| \-\-va:bottom;   | \-\-vertical-align:bottom;   | vertical-align: bottom;   |
-| \-\-va:sub;      | \-\-vertical-align:sub;      | vertical-align: sub;      |
-| \-\-va:test-top; | \-\-vertical-align:test-top; | vertical-align: test-top; |
+| Style Variable   | Value                     |
+|------------------|---------------------------|
+| \-\-va:baseline; | vertical-align: baseline; |
+| \-\-va:top;      | vertical-align: top;      |
+| \-\-va:middle;   | vertical-align: middle;   |
+| \-\-va:bottom;   | vertical-align: bottom;   |
+| \-\-va:sub;      | vertical-align: sub;      |
+| \-\-va:test-top; | vertical-align: test-top; |
 
 {{< code lang="html" >}}
 <p>vertical-align <span style="--va:baseline; --d:inline-block; --bg:white; --h:3rem; --w:3rem; --mx:.5rem"></span>baseline;</p>
@@ -321,14 +321,14 @@ Style variables to control the vertical alignment of an element.
 
 Style variables to control the white space of an element.
 
-| Shorthand            | Longhand                      | Value                      |
-|----------------------|-------------------------------|----------------------------|
-| \-\-ws:normal;       | \-\-white-space:normal;       | white-space: normal;       |
-| \-\-ws:nowrap;       | \-\-white-space:nowrap;       | white-space: nowrap;       |
-| \-\-ws:pre;          | \-\-white-space:pre;          | white-space: pre;          |
-| \-\-ws:pre-wrap;     | \-\-white-space:pre-wrap;     | white-space: pre-wrap;     |
-| \-\-ws:pre-line;     | \-\-white-space:pre-line;     | white-space: pre-line;     |
-| \-\-ws:break-spaces; | \-\-white-space:break-spaces; | white-space: break-spaces; |
+| Style Variable       | Value                      |
+|----------------------|----------------------------|
+| \-\-ws:normal;       | white-space: normal;       |
+| \-\-ws:nowrap;       | white-space: nowrap;       |
+| \-\-ws:pre;          | white-space: pre;          |
+| \-\-ws:pre-wrap;     | white-space: pre-wrap;     |
+| \-\-ws:pre-line;     | white-space: pre-line;     |
+| \-\-ws:break-spaces; | white-space: break-spaces; |
 
 {{< code lang="html" >}}
 <p style="--ws:normal; overflow-x:auto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.
@@ -376,12 +376,12 @@ Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
 
 Style variables to control the word break of an element.
 
-| Shorthand           | Longhand                     | Value                     |
-|---------------------|------------------------------|---------------------------|
-| \-\-wb:normal;      | \-\-word-break:normal;       | word-break: normal;       |
-| \-\-ws:breal-all;   | \-\-white-space:breal-all;   | white-space: breal-all;   |
-| \-\-ws:keep-all;    | \-\-white-space:keep-all;    | white-space: keep-all;    |
-| \-\-ws:brealk-word; | \-\-white-space:brealk-word; | white-space: brealk-word; |
+| Style Variable      | Value                     |
+|---------------------|---------------------------|
+| \-\-wb:normal;      | word-break: normal;       |
+| \-\-ws:breal-all;   | white-space: breal-all;   |
+| \-\-ws:keep-all;    | white-space: keep-all;    |
+| \-\-ws:brealk-word; | white-space: brealk-word; |
 
 {{< code lang="html" >}}
 <p style="--wb:normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
@@ -395,13 +395,13 @@ Style variables to control the word break of an element.
 
 Style variables to control the coulmn count of an element.
 
-| Shorthand | Longhand            | Value            |
-|-----------|---------------------|------------------|
-| \-\-cc:2; | \-\-column-count:2; | column-count: 2; |
-| \-\-cc:3; | \-\-column-count:3; | column-count: 3; |
-| \-\-cc:4; | \-\-column-count:4; | column-count: 4; |
-| \-\-cc:5; | \-\-column-count:5; | column-count: 5; |
-| \-\-cc:6; | \-\-column-count:6; | column-count: 6; |
+| Style Variable | Value            |
+|----------------|------------------|
+| \-\-cc:2;      | column-count: 2; |
+| \-\-cc:3;      | column-count: 3; |
+| \-\-cc:4;      | column-count: 4; |
+| \-\-cc:5;      | column-count: 5; |
+| \-\-cc:6;      | column-count: 6; |
 
 {{< code lang="html" >}}
 <p style="--cc:2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
@@ -413,12 +413,12 @@ Style variables to control the coulmn count of an element.
 
 Style variables to control the coulmn gap of an element.
 
-| Shorthand     | Longhand              | Value              |
-|---------------|-----------------------|--------------------|
-| \-\-cg:1rem;  | \-\-column-gap:1rem;  | column-gap: 1rem;  |
-| \-\-cg:2rem ; | \-\-column-gap:2rem ; | column-gap: 2rem ; |
-| \-\-cg:20px;  | \-\-column-gap:20px;  | column-gap: 20px;  |
-| \-\-cg:5vw;   | \-\-column-gap:5vw;   | column-gap: 5vw;   |
+| Style Variable | Value              |
+|----------------|--------------------|
+| \-\-cg:1rem;   | column-gap: 1rem;  |
+| \-\-cg:2rem ;  | column-gap: 2rem ; |
+| \-\-cg:20px;   | column-gap: 20px;  |
+| \-\-cg:5vw;    | column-gap: 5vw;   |
 
 {{< code lang="html" >}}
 <p style="--cc:2; --cg:4rem;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
@@ -428,13 +428,13 @@ Style variables to control the coulmn gap of an element.
 
 Style variables to control the coulmn rule of an element.
 
-| Shorthand               | Longhand                         | Value                         |
-|-------------------------|----------------------------------|-------------------------------|
-| \-\-cr:1px solid #ccc;  | \-\-column-rule:1px solid #ccc;  | column-rule: 1px solid #ccc;  |
-| \-\-cr:dotted;          | \-\-column-rule:dotted;          | column-rule: dotted;          |
-| \-\-cr:solid blue;      | \-\-column-rule:solid blue;      | column-rule: solid blue;      |
-| \-\-cr:8px double gray; | \-\-column-rule:8px double gray; | column-rule: 8px double gray; |
-| \-\-cr:2px solid red;   | \-\-column-rule:2px solid red;   | column-rule: 2px solid red;   |
+| Style Variable          | Value                         |
+|-------------------------|-------------------------------|
+| \-\-cr:1px solid #ccc;  | column-rule: 1px solid #ccc;  |
+| \-\-cr:dotted;          | column-rule: dotted;          |
+| \-\-cr:solid blue;      | column-rule: solid blue;      |
+| \-\-cr:8px double gray; | column-rule: 8px double gray; |
+| \-\-cr:2px solid red;   | column-rule: 2px solid red;   |
 
 {{< code lang="html" >}}
 <p style="--cc:2; --cg:2rem; --cr:2px solid;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
@@ -445,12 +445,12 @@ Style variables to control the coulmn rule of an element.
 
 Style variables to control the line clamp of an element.
 
-| Shorthand | Longhand          | Value                                                                                                    |
-|-----------|-------------------|----------------------------------------------------------------------------------------------------------|
-| n/a       | \-\-line-clamp:1; | display: -webkit-box;<br/>-webkit-line-clamp: 1;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
-| n/a       | \-\-line-clamp:2; | display: -webkit-box;<br/>-webkit-line-clamp: 2;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
-| n/a       | \-\-line-clamp:3; | display: -webkit-box;<br/>-webkit-line-clamp: 3;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
-| n/a       | \-\-line-clamp:4; | display: -webkit-box;<br/>-webkit-line-clamp: 4;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
+| Style Variable | Value                                                                                                    |
+|----------------|----------------------------------------------------------------------------------------------------------|
+| n/a            | display: -webkit-box;<br/>-webkit-line-clamp: 1;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
+| n/a            | display: -webkit-box;<br/>-webkit-line-clamp: 2;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
+| n/a            | display: -webkit-box;<br/>-webkit-line-clamp: 3;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
+| n/a            | display: -webkit-box;<br/>-webkit-line-clamp: 4;<br/>-webkit-box-orient: vertical;<br/>overflow: hidden; |
 
 {{< code lang="html" >}}
 <p style="--line-clamp:2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>

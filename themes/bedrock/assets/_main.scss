@@ -15,25 +15,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   box-sizing: border-box;
+
   * {
     box-sizing: inherit;
   }
 }
 
-img {
-  vertical-align: baseline;
-}
-
 aside nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  li {
-    margin: 1em 0;
-    position: relative;
-  }
-
   a {
     display: block;
   }
@@ -79,7 +67,6 @@ ul.pagination {
 
 .book-menu {
   flex: 0 0 $menu-width;
-  font-size: $font-size-14;
 
   nav {
     width: $menu-width;
@@ -124,6 +111,10 @@ ul.pagination {
 .book-page {
   min-width: $body-min-width;
   flex-grow: 1;
+
+  ul p {
+    margin-bottom: 0;
+  }
 }
 
 .book-post {
@@ -184,7 +175,10 @@ ul.pagination {
 
 .book-toc {
   flex: 0 0 $toc-width;
-  font-size: $font-size-12;
+
+  ul {
+    list-style: none;
+  }
 
   nav {
     width: $toc-width;
@@ -298,6 +292,7 @@ aside nav,
   }
 
   #menu-control:checked + main {
+
     .book-menu nav,
     .book-page {
       transform: translateX($menu-width);
@@ -325,6 +320,7 @@ aside nav,
 
 // Extra space for big screens
 @media screen and (min-width: $container-max-width) {
+
   .book-page,
   .book-menu nav,
   .book-toc nav {

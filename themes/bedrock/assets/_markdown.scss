@@ -4,15 +4,18 @@
   .property-table {
     max-height: 20rem;
     overflow-y: scroll;
+
     th {
       position: sticky;
       top: 0;
     }
   }
+
   table tbody {
-    font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace !important;
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace !important;
     font-size: .8em;
   }
+
   code {
     padding: 0 $padding-4;
     background: $gray-200;
@@ -21,15 +24,13 @@
     color: inherit;
   }
 
-  
-
   pre {
     padding: $padding-16;
     background: $gray-100;
     border-radius: $border-radius;
     overflow-x: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 0;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
 
     code {
       padding: 0;

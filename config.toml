@@ -2,6 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Bedrock.css"
 
+pygmentsUseClasses = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

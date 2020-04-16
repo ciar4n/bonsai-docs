@@ -1,0 +1,16 @@
+<div x-data="pokeSearch()">
+  <!-- Rest of the HTML -->
+  <template x-if="pokemon">
+    <img
+      :src="pokemon.sprites.front_default"
+      :alt="pokemon.name"
+    />
+    <h3 x-text="pokemon.name"></h3>
+    <template
+      x-for="abilityObj in pokemon.abilities"
+      :key="abilityObj.ability.url"
+    >
+      <span x-text="abilityObj.ability.name"></span>
+    </template>
+  </template>
+</div>
