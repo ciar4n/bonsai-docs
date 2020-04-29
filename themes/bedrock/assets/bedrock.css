@@ -118,7 +118,7 @@ details > summary,
   white-space: nowrap;
 
   position: relative;
-  margin: .5rem 1rem .5rem 0;
+  margin: .5rem .5rem .5rem 0;
   padding: 10px 12px;
   width: 100%;
   box-sizing: border-box;
@@ -652,6 +652,9 @@ mark {
 [style*="--hvr-bgc:"]:hover {
   background-color: var(--hvr-bgc, var(--background-color, initial));
 }
+[style*="--grad-bottom:"] {
+    background-image: linear-gradient(180deg, transparent, var(--grad-bottom));
+}
 /* Border */
 [style*="--b:"] {
   border: var(--b, var(--border, initial));
@@ -667,6 +670,18 @@ mark {
 }
 [style*="--br:"] {
   border-radius: var(--br, var(--border-radius, initial));
+}
+[style*="--bt:"] {
+  border-top: var(--bt, var(--border-top, initial));
+}
+[style*="--bl:"] {
+  border-left: var(--bl, var(--border-left, initial));
+}
+[style*="--br:"] {
+  border-right: var(--br, var(--border-right, initial));
+}
+[style*="--bb:"] {
+  border-bottom: var(--bb, var(--border-bottom, initial));
 }
 [style*="--btlr:"] {
   border-top-left-radius: var(--btlr, var(--border-top-left-radius, initial));
@@ -744,11 +759,20 @@ mark {
 [style*="--gtr:"] {
   grid-template-rows: var(--gtr, var(--grid-template-rows, initial));
 }
+[style*="--gac:"] {
+  grid-auto-columns: var(--gac, var(--grid-auto-columns, initial));
+}
+[style*="--gar:"] {
+  grid-auto-rows: var(--gar, var(--grid-auto-rows, initial));
+}
 [style*="--gc:"] {
   grid-column: var(--gc, var(--grid-column, initial));
 }
 [style*="--gr:"] {
   grid-row: var(--gr, var(--grid-row, initial));
+}
+[style*="--gg:"] {
+  grid-gap: var(--gg, var(--grid-gap, initial));
 }
 [style*="--ps:"] {
   place-self: var(--ps, var(--place-self, initial));
@@ -962,9 +986,14 @@ mark {
     -webkit-box-orient: vertical;  
     overflow: hidden;
 }
+[style*="--bi:"] {
+    page-break-inside: var(--bi);
+    -moz-column-break-inside: var(--bi);
+         break-inside: var(--bi);
+}
 /* Transform */
-[style*="--c:"] {
-  transform: var(--c, var(--transform, initial));
+[style*="--t:"] {
+  transform: var(--t, var(--transform, initial));
 }
 [style*="--c:"] {
   transform-origin: var(--c, var(--transform-origin, initial));
@@ -1010,12 +1039,11 @@ mark {
 [style*="--c:"] {
   color: var(--c, var(--color, initial));
 }
-[style*="--bshadow:"],
-[style*="--box-shadow:"] {
-    box-shadow: 0 calc(var(--bshadow) * .1px) calc(var(--bshadow) * .2px) rgba(0,0,0,calc(var(--bshadow) * .02)), 
-                0 calc(var(--bshadow) * .2px) calc(var(--bshadow) * .4px) rgba(0,0,0,calc(var(--bshadow) * .02)), 
-                0 calc(var(--bshadow) * .4px) calc(var(--bshadow) * .8px) rgba(0,0,0,calc(var(--bshadow) * .02)), 
-                0 calc(var(--bshadow) * .8px) calc(var(--bshadow) * 1.6px) rgba(0,0,0,calc(var(--bshadow) * .02)); 
+[style*="--shadow:"] {
+    box-shadow: 0 calc(var(--shadow) * .1px) calc(var(--shadow) * .2px) rgba(0,0,0,calc(var(--shadow) * .02)), 
+                0 calc(var(--shadow) * .2px) calc(var(--shadow) * .4px) rgba(0,0,0,calc(var(--shadow) * .02)), 
+                0 calc(var(--shadow) * .4px) calc(var(--shadow) * .8px) rgba(0,0,0,calc(var(--shadow) * .02)), 
+                0 calc(var(--shadow) * .8px) calc(var(--shadow) * 1.6px) rgba(0,0,0,calc(var(--shadow) * .02)); 
 }
 [style*="--hvr-levitate:"] {
     transition: all .4s ease;
@@ -1057,6 +1085,11 @@ mark {
 [style*="--concave:"] {
     background-image: linear-gradient(135deg, rgba(0,0,0,calc(var(--concave) * .022)), rgba(255,255,255,calc(var(--concave) * .025)));
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, calc(var(--concave) * .025)), -8px -8px 12px 0 rgba(255, 255, 255, calc(var(--concave) * .03));
+}
+[style*="--bg-pattern-square:"] {
+    background-image: repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor),repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor);
+    background-position: 0 0,calc(var(--bg-pattern-square) * 1px) calc(var(--bg-pattern-square) * 1px);
+    background-size: calc(var(--bg-pattern-square) * 2px) calc(var(--bg-pattern-square) * 2px);
 }
 
 /*# sourceMappingURL=bedrock.css.map */
