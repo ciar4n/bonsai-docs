@@ -18,7 +18,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
 - Drop n Build - No compiling required
 - A complete set of styling variables. All the power of a utility-first framework with none of the bulk.
 
-<div style="--cc:3; --cg:1.5rem; --bg:#eee; --p:1.5rem: --pos:realtive">
+<div style="--cc:3; --cg:1.5rem; --bg:#eee; --p:1.5rem; --pos:realtive">
     <figure class="accent" style="--mb:1.5rem;">
         <img src="https://source.unsplash.com/e0qLqlrmEHk/340x220" alt="Aliquam erat volutpat">
         <figcaption>

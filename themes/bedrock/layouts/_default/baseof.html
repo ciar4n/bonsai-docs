@@ -8,9 +8,9 @@
 </head>
 
 <body>
-  <input type="checkbox" class="hidden" id="menu-control" />
-  <main class="container flex">
-    <aside class="book-menu">
+  <input type="checkbox" id="menu-control" style="--d:none"/>
+  <main style="--d:flex; --maxw:80rem; --m:0 auto;">
+    <aside style="--fx:0 0 16rem;">
       {{ template "menu" . }} <!-- Left menu Content -->
     </aside>
 

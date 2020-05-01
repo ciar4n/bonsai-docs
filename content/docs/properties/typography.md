@@ -40,8 +40,8 @@ Style variables to control the font style of an element.
 | \-\-style:italic; | font-style: italic; |
 
 {{< code lang="html" >}}
-<h4 style="--style:normal">How vexingly quick daft zebras jump!</h4>
-<h4 style="--style:italic">How vexingly quick daft zebras jump!</h4>
+<h4 style="--fs:normal">How vexingly quick daft zebras jump!</h4>
+<h4 style="--fs:italic">How vexingly quick daft zebras jump!</h4>
 {{< /code >}}
 
 

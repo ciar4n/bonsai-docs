@@ -3,20 +3,33 @@ title: "Base Elements"
 bookFlatSection: true
 ---
 
+## Base Element Styling
+
+Before you even start adding class or style attributes, **Bedrock CSS** applies a base styling to your semantic HTML elements. Simply load **Bedrock CSS** and base HTML elements will be styled beautifully with zero effort.
+
+### Paragraphs & Inline Elements
+
 {{< code lang="html" >}}
 <p>
-  Sed egestas, ante et <a href="#">vulputate volutpat</a>, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. <i>Sed semper lorem at felis.</i> Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. <b>Phasellus pede</b> arcu, dapibus eu, fermentum et, dapibus sed, urna. Morbi interdum mollis sapien. Sed ac risus. <small>Phasellus lacinia, magna a ullamcorper laoreet</small>, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. <code>Suspendisse ac urna.</code> Etiam pellentesque mauris ut lectus. <mark>Nunc tellus ante</mark>, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+  Sed egestas, ante et <a href="#">vulputate volutpat</a>, eros pede semper est, <i>vitae luctus metus</i> libero eu augue. Morbi purus libero, faucibus adipiscing, <b>commodo quis</b>, gravida id, est. Sed lectus. <code>Praesent elementum</code> hendrerit tortor. 
+</p>
+<p>
+  <mark>Sed semper lorem at felis</mark>. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, <small>eu pulvinar nunc sapien ornare nisl</small>. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna. <code>Morbi interdum mollis sapien</code>.
 </p>
 {{< /code >}}
 
+
+### Blockquotes
+
 {{< code lang="html" >}}
 <blockquote>
-  <p>
-      Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique.
-  </p>
+  <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique.</p>
   <footer>—Parmenides, <cite>Nunc sem lacus, accumsan quis</cite></footer>
 </blockquote>
 {{< /code >}}
+
+
+### Headings
 
 {{< code lang="html" >}}
 <h1>Heading Level 1</h1>
@@ -26,6 +39,9 @@ bookFlatSection: true
 <h5>Heading Level 5</h5>
 <h6>Heading Level 6</h6>
 {{< /code >}}
+
+
+### Unordered Lists
 
 {{< code lang="html" >}}
 <ul>
@@ -42,6 +58,9 @@ bookFlatSection: true
 </ul>
 {{< /code >}}
 
+
+### Ordered Lists
+
 {{< code lang="html" >}}
 <ol>
   <li>Ordered list item 1</li>
@@ -57,71 +76,8 @@ bookFlatSection: true
 </ol>
 {{< /code >}}
 
-{{< code lang="html" >}}
-<p>
-  <label>First Name
-    <input type="text" placeholder="John">
-  </label>
-</p>
-<p>
-  <label>Last Name        
-    <input type="text" placeholder="Dow">
-  </label>
-</p>
-{{< /code >}}
 
-{{< code lang="html" >}}
-<p>
-  <label for="input-date">Input with type="date"
-    <input type="date" id="input-date">
-  </label>
-</p>
-<p>
-  <label for="input-time">Input with type="time"
-    <input type="time" id="input-time">
-  </label>
-</p>
-<p>
-  <label>Type
-    <select name="type">
-      <option value="message">Message</option>
-      <option value="feature">Feature</option>
-      <option value="report">Report</option>
-    </select>
-  </label>
-</p>
-{{< /code >}}
-
-{{< code lang="html" >}}
-<label>Message
-  <textarea placeholder="Hello People..."></textarea>
-</label>
-{{< /code >}}
-
-{{< code lang="html" >}}
-<p>
-  <label for="input-text-standard">Standard
-    <input type="text">
-  </label>
-</p>
-<p>
-  <label for="input-text-disabled">Disabled
-    <input type="text" disabled="">
-  </label>
-</p>
-<p>
-  <label for="input-text-invalid">Invalid        
-    <input type="email" required="" value="ciar4n">
-  </label>
-</p>
-<p>
-  <label for="input-text-readonly">Read Only
-    <input type="text" readonly="">
-  </label>
-</p>
-{{< /code >}}
-
-### Button
+### Buttons
 
 {{< code lang="html" >}}
 <button>Button</button>
@@ -166,7 +122,12 @@ bookFlatSection: true
 {{< code lang="html" >}}
 <div class="group">
   <button aria-label="upload">
-    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-download fa-w-18" style="transform-origin: 0.5625em 0.4375em 0px;"><g transform="translate(288 256)" class=""><g transform="translate(0, -32)  scale(1, 1)  rotate(0 0 0)" class=""><path fill="currentColor" d="M528 288h-92.1l46.1-46.1c30.1-30.1 8.8-81.9-33.9-81.9h-64V48c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v112h-64c-42.6 0-64.2 51.7-33.9 81.9l46.1 46.1H48c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V336c0-26.5-21.5-48-48-48zm-400-80h112V48h96v160h112L288 368 128 208zm400 256H48V336h140.1l65.9 65.9c18.8 18.8 49.1 18.7 67.9 0l65.9-65.9H528v128zm-88-64c0-13.3 10.7-24 24-24s24 10.7 24 24-10.7 24-24 24-24-10.7-24-24z" transform="translate(-288 -256)" class=""></path></g></g></svg>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13 7H7V5H13V7Z" fill="currentColor" />
+      <path d="M13 11H7V9H13V11Z" fill="currentColor" />
+      <path d="M7 15H13V13H7V15Z" fill="currentColor" />
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M3 19V1H17V5H21V23H7V19H3ZM15 17V3H5V17H15ZM17 7V19H9V21H19V7H17Z" fill="currentColor" />
+    </svg>
   </button>
   <input type="text" placeholder="filename.txt" aria-label="Filename">
 </div>
@@ -200,7 +161,80 @@ bookFlatSection: true
 {{< /code >}}
 
 
-### Radios & Checkboxes
+### Inputs
+
+{{< code lang="html" >}}
+<p>
+  <label>First Name
+    <input type="text" placeholder="John">
+  </label>
+</p>
+<p>
+  <label>Last Name        
+    <input type="text" placeholder="Dow">
+  </label>
+</p>
+{{< /code >}}
+
+{{< code lang="html" >}}
+<p>
+  <label for="input-date">Input with type="date"
+    <input type="date" id="input-date">
+  </label>
+</p>
+<p>
+  <label for="input-time">Input with type="time"
+    <input type="time" id="input-time">
+  </label>
+</p>
+<p>
+  <label>Type
+    <select name="type">
+      <option value="message">Message</option>
+      <option value="feature">Feature</option>
+      <option value="report">Report</option>
+    </select>
+  </label>
+</p>
+{{< /code >}}
+
+
+### Input States
+
+{{< code lang="html" >}}
+<p>
+  <label for="input-text-standard">Standard
+    <input type="text">
+  </label>
+</p>
+<p>
+  <label for="input-text-disabled">Disabled
+    <input type="text" disabled="">
+  </label>
+</p>
+<p>
+  <label for="input-text-invalid">Invalid        
+    <input type="email" required="" value="ciar4n">
+  </label>
+</p>
+<p>
+  <label for="input-text-readonly">Read Only
+    <input type="text" readonly="">
+  </label>
+</p>
+{{< /code >}}
+
+
+### Textarea
+
+{{< code lang="html" >}}
+<label>Message
+  <textarea placeholder="Hello People..."></textarea>
+</label>
+{{< /code >}}
+
+
+### Radios 
 
 {{< code lang="html" >}}
 <input type="radio" name="radio" id="radio-1" checked="">
@@ -216,6 +250,9 @@ bookFlatSection: true
 <label for="radio-4">Radio 4 (disabled)</label>
 {{< /code >}}
 
+
+### Checkboxes
+
 {{< code lang="html" >}}
 <input type="checkbox" id="checkbox-1">
 <label for="checkbox-1">Checkbox</label>
@@ -226,6 +263,9 @@ bookFlatSection: true
 <input type="checkbox" id="checkbox-3" disabled="">
 <label for="checkbox-3">Disabled Checkbox</label>
 {{< /code >}}
+
+
+### Fieldset
 
 {{< code lang="html" >}}
 <fieldset>
@@ -238,7 +278,7 @@ bookFlatSection: true
     </p>
     <p>
       <label>Password
-        <input type="password" placeholder="Dow" style="transition: none 0s ease 0s !important; box-shadow: initial !important;">
+        <input type="password" placeholder="Dow">
       </label>
     </p>
   </div>
@@ -247,33 +287,149 @@ bookFlatSection: true
 {{< /code >}}
 
 
-{{< code lang="html" >}}
+### Select
 
+{{< code lang="html" >}}
+<label for="select">Select
+  <select id="select">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+    <optgroup label="Subgroup">
+      <option value="4">Option 4</option>
+      <option value="5">Option 5</option>
+    </optgroup>
+  </select>
+</label>       
 {{< /code >}}
 
 
-{{< code lang="html" >}}
+### Multi Select
 
+{{< code lang="html" >}}
+<label for="selectmultiple">Multiselect
+  <select id="selectmultiple" multiple="">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+    <option value="4">Option 4</option>
+    <option value="5">Option 5</option>
+    <option value="6">Option 6</option>
+    <optgroup label="Subgroup">
+      <option value="7">Option 7</option>
+      <option value="8">Option 8</option>
+    </optgroup>
+  </select>
+</label>
+{{< /code >}}
+
+### FIle Input
+
+{{< code lang="html" >}}
+<label for="input-file">Input File
+  <input type="file">
+</label>      
 {{< /code >}}
 
 
-{{< code lang="html" >}}
+### Color Input
 
+{{< code lang="html" >}}
+<label for="input-color">Input Color
+  <input type="color" value="#4a69bd">
+</label>
 {{< /code >}}
 
 
-{{< code lang="html" >}}
+### Range Input
 
+{{< code lang="html" >}}
+<label for="input-range">Input Range
+  <input type="range">
+</label>
 {{< /code >}}
 
 
-{{< code lang="html" >}}
+### Tables
 
+{{< code lang="html" >}}
+<table class="accent">
+  <thead>
+    <tr>
+      <th scope="row">Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+      <th>Column 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Row 1 Value 1</th>
+      <td>Row 1 Value 2</td>
+      <td>Row 1 Value 3</td>
+      <td>Row 1 Value 4</td>
+    </tr>
+    <tr>
+      <th scope="row">Row 2 Value 1</th>
+      <td>Row 2 Value 2</td>
+      <td>Row 2 Value 3</td>
+      <td>Row 2 Value 4</td>
+    </tr>
+    <tr>
+      <th scope="row">Row 3 Value 1</th>
+      <td>Row 3 Value 2</td>
+      <td>Row 3 Value 3</td>
+      <td>Row 3 Value 4</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row">Total 1</th>
+      <th>Total 2</th>
+      <th>Total 3</th>
+      <th>Total 4</th>
+    </tr>
+  </tfoot>
+</table>
 {{< /code >}}
 
 
-{{< code lang="html" >}}
+### Horizontal Rule
 
+{{< code lang="html" >}}
+<hr>
+{{< /code >}}
+
+
+### Details
+
+{{< code lang="html" >}}
+<details>
+  <summary>Details/Summary example</summary>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat velit
+    lorem, feugiat congue lacus laoreet quis. Praesent maximus ex nec justo iaculis, in
+    euismod eros dictum. Cras ac lorem sit amet purus malesuada blandit. Mauris gravida
+    augue non urna sodales porttitor. Etiam ullamcorper luctus ullamcorper. In lobortis
+    consequat ante.
+  </p>
+</details>
+{{< /code >}}
+
+
+### Definition Lists
+
+{{< code lang="html" >}}
+<dl>
+  <dt>Term 1</dt>
+  <dd>Definition for term 1.</dd>
+
+  <dt>Term 2</dt>
+  <dd>Definition for term 2.</dd>
+
+  <dt>Term 3</dt>
+  <dd>Definition for term 3.</dd>
+</dl>
 {{< /code >}}
 
 

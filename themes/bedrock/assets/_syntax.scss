@@ -1,337 +1,70 @@
-.chroma {
-  background-color: #ffffff
-}
-
-.chroma .err {
-  color: #ff0000;
-  background-color: #ffaaaa
-}
-
-.chroma .lntd {
-  vertical-align: top;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.chroma .lntable {
-  border-spacing: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  width: auto;
-  overflow: auto;
-  display: block;
-}
-
-.chroma .hl {
-  display: block;
-  width: 100%;
-  background-color: #e5e5e5
-}
-
-.chroma .lnt {
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
-  color: #7f7f7f
-}
-
-.chroma .ln {
-  margin-right: 0.4em;
-  padding: 0 0.4em 0 0.4em;
-  color: #7f7f7f
-}
-
-.chroma .k {
-  color: #228899;
-  font-weight: bold
-}
-
-.chroma .kc {
-  color: #228899;
-  font-weight: bold
-}
-
-.chroma .kd {
-  color: #228899;
-  font-weight: bold
-}
-
-.chroma .kn {
-  color: #228899;
-  font-weight: bold
-}
-
-.chroma .kp {
-  color: #0088ff;
-  font-weight: bold
-}
-
-.chroma .kr {
-  color: #228899;
-  font-weight: bold
-}
-
-.chroma .kt {
-  color: #6666ff;
-  font-weight: bold
-}
-
-.chroma .na {
-  color: #795da3
-}
-
-.chroma .nb {
-  color: #007722
-}
-
-.chroma .nc {
-  color: #007700;
-  font-weight: bold
-}
-
-.chroma .no {
-  color: #55eedd;
-  font-weight: bold
-}
-
-.chroma .nd {
-  color: #555555;
-  font-weight: bold
-}
-
-.chroma .ni {
-  color: #880000
-}
-
-.chroma .ne {
-  color: #ff0000;
-  font-weight: bold
-}
-
-.chroma .nf {
-  color: #55eedd;
-  font-weight: bold
-}
-
-.chroma .nl {
-  color: #997700;
-  font-weight: bold
-}
-
-.chroma .nn {
-  color: #0e84b5;
-  font-weight: bold
-}
-
-.chroma .nt {
-  color: #007700
-}
-
-.chroma .nv {
-  color: #003366
-}
-
-.chroma .vc {
-  color: #ccccff
-}
-
-.chroma .vg {
-  color: #ff8844
-}
-
-.chroma .vi {
-  color: #aaaaff
-}
-
-.chroma .s {
-  color: var(--primary);
-}
-
-.chroma .sa {
-  background-color: #e0e0ff
-}
-
-.chroma .sb {
-  background-color: #e0e0ff
-}
-
-.chroma .sc {
-  color: #8888ff;
-  background-color: #e0e0ff
-}
-
-.chroma .dl {
-  background-color: #e0e0ff
-}
-
-.chroma .sd {
-  color: #dd4422;
-  background-color: #e0e0ff
-}
-
-.chroma .s2 {
-  background-color: #e0e0ff
-}
-
-.chroma .se {
-  color: #666666;
-  background-color: #e0e0ff;
-  font-weight: bold
-}
-
-.chroma .sh {
-  background-color: #e0e0ff
-}
-
-.chroma .si {
-  background-color: #eeeeee
-}
-
-.chroma .sx {
-  color: #ff8888;
-  background-color: #e0e0ff
-}
-
-.chroma .sr {
-  color: #000000;
-  background-color: #e0e0ff
-}
-
-.chroma .s1 {
-  background-color: #e0e0ff
-}
-
-.chroma .ss {
-  color: #ffcc88;
-  background-color: #e0e0ff
-}
-
-.chroma .m {
-  color: #6600ee;
-  font-weight: bold
-}
-
-.chroma .mb {
-  color: #6600ee;
-  font-weight: bold
-}
-
-.chroma .mf {
-  color: #6600ee;
-  font-weight: bold
-}
-
-.chroma .mh {
-  color: #005588;
-  font-weight: bold
-}
-
-.chroma .mi {
-  color: #6666ff;
-  font-weight: bold
-}
-
-.chroma .il {
-  color: #6600ee;
-  font-weight: bold
-}
-
-.chroma .mo {
-  color: #4400ee;
-  font-weight: bold
-}
-
-.chroma .o {
-  color: #007700
-}
-
-.chroma .ow {
-  color: #000000;
-  font-weight: bold
-}
-
-.chroma .c {
-  color: #666666;
-  font-style: italic
-}
-
-.chroma .ch {
-  color: #666666;
-  font-style: italic
-}
-
-.chroma .cm {
-  color: #666666;
-  font-style: italic
-}
-
-.chroma .c1 {
-  color: #666666;
-  font-style: italic
-}
-
-.chroma .cs {
-  color: #cc0000;
-  font-weight: bold;
-  font-style: italic
-}
-
-.chroma .cp {
-  color: #557799
-}
-
-.chroma .cpf {
-  color: #557799
-}
-
-.chroma .gd {
-  color: #a00000
-}
-
-.chroma .ge {
-  font-style: italic
-}
-
-.chroma .gr {
-  color: #ff0000
-}
-
-.chroma .gh {
-  color: #000080;
-  font-weight: bold
-}
-
-.chroma .gi {
-  color: #00a000
-}
-
-.chroma .go {
-  color: #888888
-}
-
-.chroma .gp {
-  color: #c65d09;
-  font-weight: bold
-}
-
-.chroma .gs {
-  font-weight: bold
-}
-
-.chroma .gu {
-  color: #800080;
-  font-weight: bold
-}
-
-.chroma .gt {
-  color: #0044dd
-}
-
-.chroma .gl {
-  text-decoration: underline
-}
-
-.chroma .w {
-  color: #bbbbbb
-}
+.chroma .hll { background-color: #404040 }
+.chroma  { background: #202020; color: #d0d0d0 }
+.chroma .c { color: #999999; font-style: italic } /* Comment */
+.chroma .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.chroma .g { color: #d0d0d0 } /* Generic */
+.chroma .k { color: #6ab825; font-weight: bold } /* Keyword */
+.chroma .l { color: #d0d0d0 } /* Literal */
+.chroma .n { color: #d0d0d0 } /* Name */
+.chroma .o { color: #d0d0d0 } /* Operator */
+.chroma .x { color: #d0d0d0 } /* Other */
+.chroma .p { color: #d0d0d0 } /* Punctuation */
+.chroma .cm { color: #999999; font-style: italic } /* Comment.Multiline */
+.chroma .cp { color: #cd2828; font-weight: bold } /* Comment.Preproc */
+.chroma .c1 { color: #999999; font-style: italic } /* Comment.Single */
+.chroma .cs { color: #e50808; font-weight: bold; background-color: #520000 } /* Comment.Special */
+.chroma .gd { color: #d22323 } /* Generic.Deleted */
+.chroma .ge { color: #d0d0d0; font-style: italic } /* Generic.Emph */
+.chroma .gr { color: #d22323 } /* Generic.Error */
+.chroma .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
+.chroma .gi { color: #589819 } /* Generic.Inserted */
+.chroma .go { color: #cccccc } /* Generic.Output */
+.chroma .gp { color: #aaaaaa } /* Generic.Prompt */
+.chroma .gs { color: #d0d0d0; font-weight: bold } /* Generic.Strong */
+.chroma .gu { color: #ffffff; text-decoration: underline } /* Generic.Subheading */
+.chroma .gt { color: #d22323 } /* Generic.Traceback */
+.chroma .kc { color: #6ab825; font-weight: bold } /* Keyword.Constant */
+.chroma .kd { color: #6ab825; font-weight: bold } /* Keyword.Declaration */
+.chroma .kn { color: #6ab825; font-weight: bold } /* Keyword.Namespace */
+.chroma .kp { color: #6ab825 } /* Keyword.Pseudo */
+.chroma .kr { color: #6ab825; font-weight: bold } /* Keyword.Reserved */
+.chroma .kt { color: #6ab825; font-weight: bold } /* Keyword.Type */
+.chroma .ld { color: #d0d0d0 } /* Literal.Date */
+.chroma .m { color: #3677a9 } /* Literal.Number */
+.chroma .s { color: #ed9d13 } /* Literal.String */
+.chroma .na { color: #bbbbbb } /* Name.Attribute */
+.chroma .nb { color: #24909d } /* Name.Builtin */
+.chroma .nc { color: #447fcf; text-decoration: underline } /* Name.Class */
+.chroma .no { color: #40ffff } /* Name.Constant */
+.chroma .nd { color: #ffa500 } /* Name.Decorator */
+.chroma .ni { color: #d0d0d0 } /* Name.Entity */
+.chroma .ne { color: #bbbbbb } /* Name.Exception */
+.chroma .nf { color: #447fcf } /* Name.Function */
+.chroma .nl { color: #d0d0d0 } /* Name.Label */
+.chroma .nn { color: #447fcf; text-decoration: underline } /* Name.Namespace */
+.chroma .nx { color: #d0d0d0 } /* Name.Other */
+.chroma .py { color: #d0d0d0 } /* Name.Property */
+.chroma .nt { color: #6ab825; font-weight: bold } /* Name.Tag */
+.chroma .nv { color: #40ffff } /* Name.Variable */
+.chroma .ow { color: #6ab825; font-weight: bold } /* Operator.Word */
+.chroma .w { color: #666666 } /* Text.Whitespace */
+.chroma .mf { color: #3677a9 } /* Literal.Number.Float */
+.chroma .mh { color: #3677a9 } /* Literal.Number.Hex */
+.chroma .mi { color: #3677a9 } /* Literal.Number.Integer */
+.chroma .mo { color: #3677a9 } /* Literal.Number.Oct */
+.chroma .sb { color: #ed9d13 } /* Literal.String.Backtick */
+.chroma .sc { color: #ed9d13 } /* Literal.String.Char */
+.chroma .sd { color: #ed9d13 } /* Literal.String.Doc */
+.chroma .s2 { color: #ed9d13 } /* Literal.String.Double */
+.chroma .se { color: #ed9d13 } /* Literal.String.Escape */
+.chroma .sh { color: #ed9d13 } /* Literal.String.Heredoc */
+.chroma .si { color: #ed9d13 } /* Literal.String.Interpol */
+.chroma .sx { color: #ffa500 } /* Literal.String.Other */
+.chroma .sr { color: #ed9d13 } /* Literal.String.Regex */
+.chroma .s1 { color: #ed9d13 } /* Literal.String.Single */
+.chroma .ss { color: #ed9d13 } /* Literal.String.Symbol */
+.chroma .bp { color: #24909d } /* Name.Builtin.Pseudo */
+.chroma .vc { color: #40ffff } /* Name.Variable.Class */
+.chroma .vg { color: #40ffff } /* Name.Variable.Global */
+.chroma .vi { color: #40ffff } /* Name.Variable.Instance */
+.chroma .il { color: #3677a9 } /* Literal.Number.Integer.Long */
