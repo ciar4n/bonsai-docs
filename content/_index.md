@@ -16,6 +16,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
 - All packed inside 25kb.
 - Classless styling of semantic HTML elements
 - Drop n Build - No compiling required
+- Use any CSS property value not just a selected few
 - A complete set of styling variables. All the power of a utility-first framework with none of the bulk.
 
 <div style="--cc:3; --cg:1.5rem; --bg:#eee; --p:1.5rem; --pos:realtive">
