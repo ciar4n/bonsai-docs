@@ -6,7 +6,6 @@ html {
 html,
 body {
   min-width: $body-min-width;
-  overflow-x: hidden;
 }
 
 body {
@@ -92,10 +91,10 @@ ul.pagination {
 }
 
 .book-section-flat {
-  margin-bottom: $padding-16 * 2;
+  margin-bottom: $padding-16;
 
   &:not(:first-child) {
-    margin-top: $padding-16 * 2;
+    margin-top: $padding-16;
   }
 
   > a,
@@ -183,8 +182,8 @@ ul.pagination {
   nav {
     width: $toc-width;
     padding: $padding-16;
-
-    @include fixed;
+    position: sticky;
+    top: 0;
   }
 
   img {
@@ -324,6 +323,6 @@ aside nav,
   .book-page,
   .book-menu nav,
   .book-toc nav {
-    padding: $padding-16 * 2 $padding-16;
+    padding: $padding-16;
   }
 }

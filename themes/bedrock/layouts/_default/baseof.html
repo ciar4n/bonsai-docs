@@ -4,13 +4,28 @@
 <head>
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 
 <body>
   <input type="checkbox" id="menu-control" style="--d:none"/>
+  {{ if eq (relURL .URL) ("/" | safeHTML) }}
+  <header clsas="home-header" style="">
+    <div style="--d:flex;--fd:column;--ai:center;--jc:center">
+      <img src="{{ "logo.png" | relURL }}" alt="bedrockcss" style="--m:20px auto 0; --d: block;">
+      <h1 style="--ta: center; --mb:0">bedrock.css</h1>
+      <h5 style="--ta: center; --mw: 450px; --m: auto auto 1rem">A modern approach to web design</h5>
+        <div>
+          <a href="#learn-more"><button class="white">Learn More</button></a>
+          <a href="/docs/getting-started/installation/"><button>Getting Started</button></a>
+        </div>
+    </div>
+  </header>
+  {{ end }}
   <main style="--d:flex; --maxw:80rem; --m:0 auto;">
-    <aside style="--fx:0 0 16rem;">
+    <aside style="--fx:0 0 16rem; --ta:right;">
+      {{ if not eq (relURL .URL) ("/" | safeHTML) }}
+        <img src="{{ "logo.png" | relURL }}" alt="bedrockcss" style="--m:20px auto 0; --d: block;">
+      {{ end }}
       {{ template "menu" . }} <!-- Left menu Content -->
     </aside>
 

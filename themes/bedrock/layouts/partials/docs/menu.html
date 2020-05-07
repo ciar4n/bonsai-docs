@@ -1,6 +1,8 @@
-<nav>
-{{ partial "docs/search" . }}
-
+<nav style=" --pr:1rem; --br:1px solid #ddd">
+  <div style="--weight:bold;--pt:1rem">Getting Started</div>
+  <a href="{{ .Site.BaseURL | relLangURL }}" style="--mb:.2rem; --d:block">
+    Introduction
+  </a>
 {{ partial "docs/inject/menu-before" . }}
 {{ partial "docs/menu-hugo" .Site.Menus.before }}
 

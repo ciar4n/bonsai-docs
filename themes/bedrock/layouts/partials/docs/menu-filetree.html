@@ -36,7 +36,7 @@
 
 {{ if or $ancestor (not $collapsed) }}
   {{ with .Section }}
-  <ul style="--list:none; --p:0;">
+  <ul style="--list:none; --p:0; --m:0">
     {{ range where .Pages "Params.bookhidden" "!=" "true" }}
       {{ if eq .Kind "section" }}
         {{ template "book-section" (dict "Section" . "CurrentPage" $.CurrentPage) }}
@@ -61,7 +61,7 @@
     {{- partial "docs/title" . -}}
   </a>
   {{ else }}
-  <span>{{- partial "docs/title" . -}}</span>
+  <div style="--weight:bold; --pt:1rem;">{{- partial "docs/title" . -}}</div>
   {{ end }}
 {{ end }}
 {{ end }}

@@ -1,6 +1,7 @@
 ---
 title: "Browser Support"
 bookToc: false
+weight: 2
 ---
 
 # Browser Support

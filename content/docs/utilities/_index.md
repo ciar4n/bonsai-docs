@@ -1,9 +1,18 @@
 ---
 title: "Utilities"
 bookFlatSection: true
+bookToc: false
+weight: 4
 ---
 
-Bedrock CSS gives you are very unique and modern approach to 'utility first' styling. 
+### CSS Utilities
+
+Utilities allow you to quickly apply single CSS properties to an element directly within your HTML markup without having to write any code in a separate CSS file. Contrary to other CSS frameworks which use the class attribute, Bedrock CSS is unique in that it applies utilities through CSS variables and the style attribute. This has a number of distinct improvements over class based utilities.
+
+- **Use of all values** - With class based utlities you can only assign a set number of values pre defined by the framework. Bedrock CSS does not have this restraint. Any valid value for the CSS property can be applied.
+- **Filesize** - One of the biggest drawbacks to date with utility based CSS frameworks is their large filesize. The developent version of Tailwind for example, minified is a rather large **1599.8kb**. Bedrock CSS with the same feature set comes in at less than **50kb**. 
+
+#### What about responsive
 
 | Property                   | Shorthand                                                              | Media Queries | MDN Reference                                                                                                               |
 |----------------------------|------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------|

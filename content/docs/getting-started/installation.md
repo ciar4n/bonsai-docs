@@ -2,24 +2,24 @@
 weight: 1
 title: "Installation"
 bookToc: false
+weight: 1
 ---
 
 ## Installing Bedrock CSS
 
-A quick start guide on adding Bedrock CSS to your project. 
+For now Bedrock CSS can be added to your project by downloading from the Github repo. Extract and include the ./dist/bedrock.min.css into your project, linking in your document head. 
 
-### Download
-
-- Download the latest release directly.
-- Install using the NPM package manager.
-{{< highlight scss >}}
-// Install via NPM
-npm install bedrockcss
+{{< highlight html "linenos=false" >}}
+<link rel="stylesheet" href="sakura.css" type="text/css">
 {{< / highlight >}}
 
+<br>
 
-- Clone the repo from Github: 
-{{< highlight scss >}}
-// Clone from Github
-git clone git://github.com/ciar4n/bedrockcss.git
-{{< / highlight >}}
+### Install via NPM
+
+// Coming soon
+
+
+### Install via CDN
+
+// Coming soon

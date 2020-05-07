@@ -1,5 +1,0 @@
----
-bookToc: false
----
-
-# Sizing
