@@ -23,7 +23,7 @@
   {{ end }}
   <main style="--d:flex; --maxw:80rem; --m:0 auto;">
     <aside style="--fx:0 0 16rem; --ta:right;">
-      {{ if not eq (relURL .URL) ("/" | safeHTML) }}
+      {{ if eq (relURL .URL) ("/" | safeHTML) }}{{ else }}
         <img src="{{ "logo.png" | relURL }}" alt="bedrockcss" style="--m:20px auto 0; --d: block;">
       {{ end }}
       {{ template "menu" . }} <!-- Left menu Content -->

@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Bedrock.css"
+theme = "bedrock"
 
 pygmentsUseClasses = true
 
