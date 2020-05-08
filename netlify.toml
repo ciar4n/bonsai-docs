@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  command = "hugo server --minify --theme bedrock"
+
+[build.environment]
+  HUGO_VERSION = "0.62.2"
+
+[context.deploy-preview]
+  command = "hugo server --minify --theme bedrock"
