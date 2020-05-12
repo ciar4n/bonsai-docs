@@ -16,6 +16,10 @@
     font-size: .8em;
   }
 
+  .highlight {
+    margin-bottom: 2rem;
+  }
+
   code {
     padding: 0 $padding-4;
     background: $gray-200;
@@ -61,5 +65,8 @@
       font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
       font-size: .85em;
     }
+  }
+  .highlight {
+    margin-bottom: 0;
   }
 }

@@ -110,10 +110,15 @@ ul.pagination {
 .book-page {
   min-width: $body-min-width;
   flex-grow: 1;
+  padding-top: 2rem;
 
   ul p {
     margin-bottom: 0;
   }
+}
+
+header + main .book-page {
+  padding-top: 0;
 }
 
 .book-post {
@@ -320,7 +325,6 @@ aside nav,
 // Extra space for big screens
 @media screen and (min-width: $container-max-width) {
 
-  .book-page,
   .book-menu nav,
   .book-toc nav {
     padding: $padding-16;

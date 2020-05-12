@@ -4,16 +4,69 @@ bookToc: false
 ---
 
 <div id="learn-more"></div>
-Bedrock CSS brings you a completely new approach to a CSS framework. Leave behind bulky dependancies while still having a complete toolset to build beautiful responsive and performant web interfaces. 
 
-- All the versatility of a utility-first framework. 
-- All the beauty of a class based framework. 
-- All ease of use of a semantic targeting framework. 
-- All packed inside 25kb.
-- Classless styling of semantic HTML elements
+### Why build with Bedrock
+
+Bedrock is a complete CSS solution allowing you to build beautifully crafted web interfaces with ease. Leave behind the bulky dependancies normally assiociated with utility first frameworks. Bedrock's unique approach allows you all a complete toolset while still allowing you to provide a performant responsive solution.
+
+- A complete utility-first CSS framework solution. 
+- Classless base styling of semantic HTML elements
+- All packed inside 44kb.
 - Drop n Build - No compiling required
-- Use any CSS property value not just a selected few
-- A complete set of styling variables. All the power of a utility-first framework with none of the bulk.
+
+### Utility first CSS
+
+When talking about CSS frameworks, the term 'utility' generally refers to a CSS class name that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A "**Utility First**" framework is built to promote this practice as the primary way to style elements within a HTML document and provide utilites for the majority of the more widely used CSS properties. 
+
+- Less development spent swapping between HTML and CSS files
+- No more inventing class names for each element
+- CSS size remains constant as your project grows
+
+There is nothing new about the concept of utility first CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bedrock however, is how these utilities are implemented. Traditionally utility first frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS filesize it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bedrock CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
+
+##### Style based utilities
+
+{{< highlight html "linenos=false" >}}
+<div style="--bg:var(--dark)"><div>
+<div style="--bg:#2A2A2A"><div>
+<div style="--bg:rgb(42,42,42)"><div>
+<div style="--bg:rgba(0,0,0,.8)"><div>
+{{< / highlight >}}
+
+### Responsive design and media queries
+
+Where relavent utilities can be applied conditionally to each screensize. This allows you to apply utilities to specific screen size making responsive design a walk in the park.
+
+By default there are four breakpoints set in correspondance with the most common device resolutions.
+
+{{< highlight css "linenos=false" >}}
+/* Small '-sm' */
+@media (min-width: 640px) { ... }
+
+/* Medium '-md' */
+@media (min-width: 768px) { ... }
+
+/* Large '-lg' */
+@media (min-width: 1024px) { ... }
+
+/* Extra Large '-xl' */
+@media (min-width: 1280px) { ... }
+{{< / highlight >}}
+
+To assign a utility to a set screensize breakpoint simply prepend with a `-` followed by the breakpoint shorthand name. Media queries by default use a mobile-first approach, which as it sounds is designing for the smallest screen and working your way up.
+
+Consider the following example where `--d` is the Bedrock utility for the `display` CSS property.
+
+{{< highlight html "linenos=false" >}}
+/* Button is `disply:block` by default. `display:none` from medium size screens up. */
+<button style="--d:block; --d-md:none">Only visible on small screens</button>
+{{< / highlight >}}
+
+### Discover limitless possibilites
+
+Bedrock 
+
+<br>
 
 <div style="--cc:3; --cg:1.5rem; --bg:#eee; --p:1.5rem; --pos:relative">
     <figure class="accent" style="--mb:1.5rem;">
@@ -21,7 +74,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
         <figcaption>
           <h4>Nullam malesuada erat</h4>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </p>
-          <button>Read More</button>
+          <button aria-label="Sample Button">Read More</button>
         </figcaption>
     </figure>
     <figure class="accent" style="--mb:1.5rem;">
@@ -47,7 +100,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
             <label>Last Name
                 <input type="text" placeholder="John">
             </label>
-            <button style="--w:100%">Submit</button>
+            <button style="--w:100%" aria-label="Sample Button">Submit</button>
         </figcaption>
     </figure>
     <figure class="accent" style="--mb:1.5rem;">
@@ -116,8 +169,8 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
           <img style="--of:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/eluzJSfkNCk/300x400" alt="Aliquam erat volutpat">
         </div>
         <div style="--p:1rem">
-          <button class="white" style="--w:100%">Sign in</button>
-          <button style="--w:100%; --bc:var(--primary);">Create an account</button>
+          <button class="white" style="--w:100%" aria-label="Sample Button">Sign in</button>
+          <button style="--w:100%; --bc:var(--primary);" aria-label="Sample Button">Create an account</button>
         </div>
     </div>
     <div style="--p:2rem 1rem; --ta:center; --mb:1.5rem;">
@@ -129,7 +182,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
       <div style="--pos:absolute; --inset:0">
         <img style="--of:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/aExT3y92x5o/400x350" alt="Aliquam erat volutpat">
       </div>
-      <button style="--pos:absolute; --top:8px; --right:0; --bg:var(--primary); --p:8px 5px;">
+      <button style="--pos:absolute; --top:8px; --right:0; --bg:var(--primary); --p:8px 5px;" aria-label="Sample Button">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
       </button>
       <div style="--p:1rem; --pos:relative">
@@ -141,7 +194,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
       <h4 style="--c:var(--primary); --m:0;">Welcome</h4>
       <h3 style="--weight:600">Quisque imperdiet</h3>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque volutpat mattis eros.</p>
-      <button>View More</button>
+      <button aria-label="Sample Button">View More</button>
     </div>
     <div class="accent" style="--mb:1.5rem; --p:1rem; --cc:2;">
       <div style="--mb:1rem; --d:inline-block; --bi:avoid;">
@@ -201,8 +254,8 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
       </div>
       <div class="group" style="--m:0; --w:100%;">
-        <button class="grey" style="--fx:1; --btlr:0; --b:0">Learn More</button>
-        <button style="--fx:1; --btrr:0; --b:0">Sign Up</button>
+        <button class="grey" style="--fx:1; --btlr:0; --b:0" aria-label="Sample Button">Learn More</button>
+        <button style="--fx:1; --btrr:0; --b:0" aria-label="Sample Button">Sign Up</button>
       </div>
     </div>
     <div style="--mb:1.5rem; --p:1rem">
@@ -247,13 +300,13 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
         <input type="checkbox" id="checkbox-1">
         <label for="checkbox-1">Vestibulum commodo felis</label>
       </div>
-      <button style="--mt:1rem">Submit</button>
+      <button style="--mt:1rem" aria-label="Sample Button">Submit</button>
     </div>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
       <div style="--pos:absolute; --inset:0">
         <img style="--of:cover; --h:100%; --w:100%; --op:.7" src="https://source.unsplash.com/76-58HpxvpQ/350x400" alt="Image">
       </div>
-      <button class="white" style="--pos:absolute; --top:8px; --right:0; --p:8px 5px; --bc:transparent">
+      <button class="white" style="--pos:absolute; --top:8px; --right:0; --p:8px 5px; --bc:transparent" aria-label="Sample Button">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
       </button>
       <div style="--p:1rem; --pos:relative">
@@ -282,7 +335,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
     </div>
     <div class="accent" style="--bg:white; --p:1.5rem; --mb:1.5rem;">
       <p style="--c:#aaa">Our site uses cookies. Learn more about our use of cookies: <a href="#">Cookie policy</a></p>
-      <button style="--w:100%">Submit</button>
+      <button style="--w:100%" aria-label="Sample Button">Submit</button>
     </div>
     <div style="--d:flex; --p:2rem 1rem; --mb:1.5rem;">
       <svg xmlns="http://www.w3.org/2000/svg" style="--w:50px; --h:auto; --mr:.5rem" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline><polyline points="7.5 19.79 7.5 14.6 3 12"></polyline><polyline points="21 12 16.5 14.6 16.5 19.79"></polyline><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
@@ -301,7 +354,7 @@ Bedrock CSS brings you a completely new approach to a CSS framework. Leave behin
       <h5 style="--p:.25rem 1.5rem .75rem; --bb:1px solid #ddd">Beautiful Designs</h5>
       <div style="--p:.25rem 1.5rem 1.5rem; --bg:white;">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ex fugiat quisquam. </p>
-        <button>Read More...</button>
+        <button aria-label="Sample Button">Read More...</button>
       </div>
     </div>
     <div style="--d:grid; --gtc:auto 2.2rem; --mb:1.5rem;">
