@@ -1,9 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Bedrock.css"
 theme = "bedrock"
 
 pygmentsUseClasses = true
+
+BookSearch = false
 
 [markup]
   [markup.goldmark]

@@ -346,7 +346,7 @@ Bedrock
     </div>
     <div class="accent primary" style="--d:flex; --fd:column; --mb:1.5rem;">
         <img src="https://source.unsplash.com/-4kwrnRrk-E/340x220" alt="Aliquam erat volutpat">
-        <a href="#" style="--c:white; --px:10px; --ml:auto; --size:2rem">
+        <a href="#" style="--c:white; --px:10px; --ml:auto; --size:2rem" aria-label="Sample Link">
           <svg style="--ml:auto;" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </a>
     </div>
