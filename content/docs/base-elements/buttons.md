@@ -11,7 +11,7 @@ weight: 2
 {{< code lang="html" >}}
 <button>Button</button>
 <button aria-label="add">
-  <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+  <svg aria-hidden="true" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
   Button
 </button>
 <button disabled="">Button Disabled</button>
@@ -51,7 +51,7 @@ weight: 2
 {{< code lang="html" >}}
 <div class="group">
   <button aria-label="upload">
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
       <path d="M13 7H7V5H13V7Z" fill="currentColor" />
       <path d="M13 11H7V9H13V11Z" fill="currentColor" />
       <path d="M7 15H13V13H7V15Z" fill="currentColor" />
