@@ -1,14 +1,14 @@
 
-function liveprop(svar, shorthand, unit) {
+function liveprop(svar, shorthand, unit, target) {
 
     let input = document.getElementById(`${svar}`);
     let label = document.getElementById(`${svar}-label`);
-    let sampleText = document.querySelector('.demo');
+    let demotarget = document.getElementById(`${target}`);
 
     input.addEventListener('input', ({ target }) => {
         let propValue = target.value + unit;
         label.textContent = shorthand + ':' + propValue + ';';
-        sampleText.style.setProperty(shorthand, propValue);
+        demotarget.style.setProperty(shorthand, propValue);
     });
     
     input.addEventListener('mousedown', () => {
@@ -22,9 +22,9 @@ function liveprop(svar, shorthand, unit) {
 
 (function() {
     document.addEventListener("DOMContentLoaded", function() {
-        liveprop('padding', '--p', 'px');
-        liveprop('maxw', '--maxw', 'px');
-        liveprop('br', '--br', 'px');
-        liveprop('levitate', '--levitate', '');
+        liveprop('padding', '--p', 'px', 'demo');
+        liveprop('maxw', '--maxw', 'px', 'demo');
+        liveprop('br', '--br', 'px', 'demo');
+        liveprop('levitate', '--levitate', '', 'demo');
     });
 })();

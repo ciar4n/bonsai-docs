@@ -2,6 +2,20 @@
 
 // @import "plugins/numbered";
 
+h4 {
+    font-weight: 300;
+}
+
+.hover-me {
+    position: relative;
+}
+.hover-me::after {
+    content: url(../docs/helpers/hover-me-left.png);
+    position: absolute;
+    top: 10px;
+    right: -120px;
+    opacity: .5;
+}
 
 .link-mdn {
     box-sizing: border-box;
