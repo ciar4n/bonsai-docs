@@ -62,9 +62,7 @@ Consider the following example where `--d` is the Bedrock utility for the `displ
 <button style="--d:block; --d-md:none">Only visible on small screens</button>
 {{< / highlight >}}
 
-### Discover limitless possibilites
-
-Bedrock 
+<h2 style="--ta: center;">Discover limitless possibilites</h2>
 
 <br>
 

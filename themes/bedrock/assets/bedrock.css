@@ -778,14 +778,6 @@ mark {
 [style*="--pb:"] {
     padding-bottom: var(--pb) !important;
   }
-[style*="--px:"] {
-  padding-left: var(--px);
-  padding-right: var(--px);
-}
-[style*="--py:"] {
-  padding-top: var(--py);
-  padding-bottom: var(--py);
-}
 [style*="--m:"] {
     margin: var(--m) !important;
   }
@@ -801,14 +793,6 @@ mark {
 [style*="--mb:"] {
     margin-bottom: var(--mb) !important;
   }
-[style*="--mx:"] {
-  margin-left: var(--mx);
-  margin-right: var(--mx);
-}
-[style*="--my:"] {
-  margin-top: var(--my);
-  margin-bottom: var(--my);
-}
 /* Typography */
 [style*="--c:"] {
     color: var(--c) !important;
@@ -974,6 +958,9 @@ mark {
 [style*="--grad:"] {
     background-image: linear-gradient(var(--grad), rgba(0,0,0,0), var(--grad-color, rgba(0,0,0,1)));
 }
+[style*="--grad-vars:"] {
+    background-image: linear-gradient(var(--grad-vars), var(--primary), var(--secondary));
+}
 [style*="--inset:"] {
     top: var(--inset);
     left: var(--inset);
@@ -989,6 +976,22 @@ mark {
     left: var(--inset-bottom);
     right: var(--inset-bottom);
     bottom: var(--inset-bottom);
+}
+[style*="--inset-top-left:"] {
+    top: var(--inset-top-left);
+    left: var(--inset-top-left);
+}
+[style*="--inset-top-right:"] {
+    top: var(--inset-top-right);
+    right: var(--inset-top-right);
+}
+[style*="--inset-bottom-left:"] {
+    bottom: var(--inset-bottom-left);
+    left: var(--inset-bottom-left);
+}
+[style*="--inset-bottom-right:"] {
+    bottom: var(--inset-bottom-right);
+    right: var(--inset-bottom-right);
 }
 [style*="--levitate:"] {
     box-shadow: 0 calc(var(--levitate) * .5px) calc(var(--levitate) * .6px) rgba(0,0,0,calc(var(--levitate) * .013)), 
@@ -1045,6 +1048,22 @@ mark {
 [style*="--concave:"] {
     background-image: linear-gradient(135deg, rgba(0,0,0,calc(var(--concave) * .022)), rgba(255,255,255,calc(var(--concave) * .025)));
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, calc(var(--concave) * .025)), -8px -8px 12px 0 rgba(255, 255, 255, calc(var(--concave) * .03));
+}
+[style*="--px:"] {
+padding-left: var(--px);
+padding-right: var(--px);
+}
+[style*="--py:"] {
+padding-top: var(--py);
+padding-bottom: var(--py);
+}
+[style*="--mx:"] {
+margin-left: var(--mx);
+margin-right: var(--mx);
+}
+[style*="--my:"] {
+margin-top: var(--my);
+margin-bottom: var(--my);
 }
 [style*="--line-clamp:"] {
     display: -webkit-box;
