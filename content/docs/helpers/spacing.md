@@ -9,13 +9,40 @@ bookToc: false
 
 <br>
 
-#### \-\-py
-The `--inset` helper anchors absolutely positioned elements relative to all edges of the nearest positioned parent. The value of this helper collectively sets the distance of the `top`, `left`, `right` and `bottom` CSS properties. For responsive control this helper can be used in partnership with the `top`, `left`, `right` and `bottom` ultilies.
 
-{{< helper-demo-inset property="inset" min="0" max="78" value="10" target="target-inset" unit="px" append=" --pos:absolute;" >}}
+#### \-\-px
+The `--px` helper anchors adds equal padding on both sides of the horizontal axis of an element. The value of this helper collectively sets `padding-left` and `padding-right` CSS properties. 
+
+{{< helper-demo property="px" min="0" max="80" value="15" target="target-px" unit="px" >}}
 <figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
-<figcaption id="target-inset" style="--inset:0; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-</figcaption>
+    <figcaption id="target-px" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </figcaption>
 </figure>
-{{< /helper-demo-inset >}}
+{{< /helper-demo >}}
+
+
+#### \-\-py
+The `--py` helper anchors adds equal padding on both sides of the vertical axis of an element. The value of this helper collectively sets `padding-top` and `padding-bottom` CSS properties.
+
+{{< helper-demo property="py" min="0" max="80" value="15" target="target-py" unit="px" >}}
+<figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
+    <figcaption id="target-py" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </figcaption>
+</figure>
+{{< /helper-demo >}}
+
+
+#### \-\-mx
+The `--mx` helper anchors adds equal margin on both sides of the horizontal axis of an element. The value of this helper collectively sets `margin-left` and `margin-right` CSS properties. 
+
+{{< helper-demo property="mx" min="0" max="80" value="15" target="target-mx" unit="px" >}}
+<figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
+    <figcaption id="target-mx" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </figcaption>
+</figure>
+{{< /helper-demo >}}
+
+

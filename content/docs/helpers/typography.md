@@ -29,8 +29,8 @@ The `--text-3d` helper gives text a 3D. Value of this helper sets the 3D color u
             <span id="target-text-3d" style="--text-3d:#406DC4; --c:#57A1DB; --weight:bold; --size: 5rem">Hello World!</span>
         </div>
             <div>
-                <input type="color" id="color" name="color" value="#57A1DB" style="--d:inline:block;">
-                <input type="color" id="text-3d" name="text-3d" value="#406DC4" style="--d:inline:block;">
+                <input type="color" id="color" name="color" value="#57A1DB" style="--d:inline-block;">
+                <input type="color" id="text-3d" name="text-3d" value="#406DC4" style="--d:inline-block;">
             </div>
             <div class="markdown" style="--maxw:800px; --w:100%; --pos:relative;">
 <div class="highlight" style="--mb:0;"><pre class="chroma" style="--mt:.75rem;"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">"<span id="text-3d-label">--text-3d:#406DC4;</span> <span id="color-label">--c:#57A1DB;</span>"</span></span><span class="p"></span><span class="p">&gt;</span> ... <span class="p">&lt;</span><span class="p">/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>

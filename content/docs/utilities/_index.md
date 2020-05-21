@@ -13,6 +13,15 @@ Utilities allow you to quickly apply single CSS properties to an element directl
 - **Filesize** - One of the biggest drawbacks to date with utility based CSS frameworks is their large filesize. The developent version of Tailwind for example, minified is a rather large **1599.8kb**. Bedrock CSS with the same feature set comes in at less than **50kb**. 
 
 #### What about responsive
+Bedrock utilities are perfect for developing fully responsive interfaces. Each utility can be applied conditionally to a screensize allowing you total responsive control.
+
+To apply a utility to a certain screensize simply append the utility shorthand with a '-' followed by the screen size. Utilities use a mobile-first approach so if you append with for example `-md`, that utility will be applied to the medium screensize and up.
+
+In the following example background is red by default and blue on large screen devices.
+
+{{< highlight html "linenos=false" >}}
+<div style="--bg:red; --bg-lg:blue"><div>
+{{< / highlight >}}
 
 | Property                   | Shorthand                                                              | Media Queries | MDN Reference                                                                                                               |
 |----------------------------|------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------|
