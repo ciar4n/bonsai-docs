@@ -7,7 +7,7 @@ bookToc: false
 
 ### Why build with Bedrock
 
-Bedrock is a complete CSS solution allowing you to build beautifully crafted web interfaces with ease. Leave behind the bulky dependancies normally assiociated with utility first frameworks. Bedrock's unique approach allows you all a complete toolset while still allowing you to provide a performant responsive solution.
+Bedrock is a complete CSS solution allowing you to build beautifully crafted web interfaces with ease. Leave behind the bulky dependancies normally assiociated with utility first frameworks. Bedrock's unique approach gives a complete toolset while providing a performant responsive solution.
 
 - A complete utility-first CSS framework solution. 
 - Classless base styling of semantic HTML elements
