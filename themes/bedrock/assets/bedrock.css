@@ -25,7 +25,7 @@
   --form-text: #000;
   --variable: #39a33c;
   --highlight: #ff0;
-  --select-arrow: url("data:image/svg+xml;charset=utf-8,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' height='62.5' width='116.9' fill='%23161f27'%3E %3Cpath d='M115.3,1.6 C113.7,0 111.1,0 109.5,1.6 L58.5,52.7 L7.4,1.6 C5.8,0 3.2,0 1.6,1.6 C0,3.2 0,5.8 1.6,7.4 L55.5,61.3 C56.3,62.1 57.3,62.5 58.4,62.5 C59.4,62.5 60.5,62.1 61.3,61.3 L115.2,7.4 C116.9,5.8 116.9,3.2 115.3,1.6Z'/%3E %3C/svg%3E");
+  --select-arrow: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='62.5' width='116.9' fill='%23161f27'%3E%3Cpath d='M115.3 1.6c-1.6-1.6-4.2-1.6-5.8 0l-51 51.1L7.4 1.6C5.8 0 3.2 0 1.6 1.6 0 3.2 0 5.8 1.6 7.4l53.9 53.9c.8.8 1.8 1.2 2.9 1.2 1 0 2.1-.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2.1-5.8z'/%3E%3C/svg%3E");
   --heading-margin: .5rem 0 .75rem;
   --typo-size-1: 2.8rem;
   --typo-size-2: 2.2rem;
@@ -37,24 +37,26 @@
   --accent-border: 0;
   --accent-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
-html {
-  margin: 0;
-  padding: 0;
-
-  font-size: 15px;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
-body {
-  margin: 0;
-
+html {
   font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
   line-height: 1.6;
-  font-size: 1em;
   font-weight: 400;
 
   color: var(--text-main);
   background: var(--background-body);
 
+  -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+}
+body {
+  margin: 0;
+  font-size: 1em;
 }
 code,
 samp,
@@ -125,7 +127,6 @@ details > summary,
   border: 1px solid var(--border);
   border-radius: var(--border-radius);
   outline: none;
-  /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .025), 0 2px 4px -1px rgba(0, 0, 0, .015); */
 
   -webkit-appearance: none;
 }
@@ -383,7 +384,7 @@ h6 {
   font-weight: normal;
   line-height: 1.3em;
   margin: var(--heading-margin);
-  color: var(--c, inherit);
+  color: var(--text-c, inherit);
 }
 h1 {
   font-size: var(--typo-size-1);
@@ -1240,6 +1241,24 @@ mark {
     [style*="--ps-sm:"] {
       place-self: var(--ps-xs) !important;
     }
+    [style*="--us-sm:"] {
+      -webkit-user-select: var(--us-xs) !important;
+         -moz-user-select: var(--us-xs) !important;
+          -ms-user-select: var(--us-xs) !important;
+              user-select: var(--us-xs) !important;
+    }
+    [style*="--oe-sm:"] {
+      outline: var(--oe-xs) !important;
+    }
+    [style*="--pe-sm:"] {
+      pointer-events: var(--pe-xs) !important;
+    }
+    [style*="--sb-sm:"] {
+      scroll-behavior: var(--sb-xs) !important;
+    }
+    [style*="--cur-sm:"] {
+      cursor: var(--cur-xs) !important;
+    }
     [style*="--d-sm:"] {
       display: var(--d-xs) !important;
     }
@@ -1275,6 +1294,15 @@ mark {
     [style*="--z-sm:"] {
       z-index: var(--z-xs) !important;
     }
+    [style*="--of-sm:"] {
+      overflow: var(--of-xs) !important;
+    }
+    [style*="--ofx-sm:"] {
+      overflow-x: var(--ofx-xs) !important;
+    }
+    [style*="--ofy-sm:"] {
+      overflow-y: var(--ofy-xs) !important;
+    }
     [style*="--w-sm:"] {
       width: var(--w-xs) !important;
     }
@@ -1292,6 +1320,9 @@ mark {
     }
     [style*="--maxh-sm:"] {
       max-height: var(--maxh-xs) !important;
+    }
+    [style*="--bxs-sm:"] {
+      box-sizing: var(--bxs-xs) !important;
     }
     [style*="--p-sm:"] {
       padding: var(--p-xs) !important;
@@ -1392,6 +1423,9 @@ mark {
     [style*="-ttf-sm:"] {
       transition-timing-function: var(-ttf-xs) !important;
     }
+    [style*="--all-sm:"] {
+      all: var(--all-xs) !important;
+    }
     [style*="--ct-sm:"] {
       content: var(--ct-xs) !important;
     }
@@ -1400,6 +1434,16 @@ mark {
     }
     [style*="--bs-sm:"] {
       box-shadow: var(--bs-xs) !important;
+    }
+    [style*="--cr-sm:"] {
+      clear: var(--cr-xs) !important;
+    }
+    [style*="--ct-sm:"] {
+      content: var(--ct-xs) !important;
+    }
+    [style*="--fr-sm:"] {
+      -webkit-filter: var(--fr-xs) !important;
+              filter: var(--fr-xs) !important;
     }
 }
 @media only screen and (min-width:960px) {
@@ -1544,6 +1588,24 @@ mark {
     [style*="--ps-xl:"] {
       place-self: var(--ps-lg) !important;
     }
+    [style*="--us-xl:"] {
+      -webkit-user-select: var(--us-lg) !important;
+         -moz-user-select: var(--us-lg) !important;
+          -ms-user-select: var(--us-lg) !important;
+              user-select: var(--us-lg) !important;
+    }
+    [style*="--oe-xl:"] {
+      outline: var(--oe-lg) !important;
+    }
+    [style*="--pe-xl:"] {
+      pointer-events: var(--pe-lg) !important;
+    }
+    [style*="--sb-xl:"] {
+      scroll-behavior: var(--sb-lg) !important;
+    }
+    [style*="--cur-xl:"] {
+      cursor: var(--cur-lg) !important;
+    }
     [style*="--d-xl:"] {
       display: var(--d-lg) !important;
     }
@@ -1579,6 +1641,15 @@ mark {
     [style*="--z-xl:"] {
       z-index: var(--z-lg) !important;
     }
+    [style*="--of-xl:"] {
+      overflow: var(--of-lg) !important;
+    }
+    [style*="--ofx-xl:"] {
+      overflow-x: var(--ofx-lg) !important;
+    }
+    [style*="--ofy-xl:"] {
+      overflow-y: var(--ofy-lg) !important;
+    }
     [style*="--w-xl:"] {
       width: var(--w-lg) !important;
     }
@@ -1596,6 +1667,9 @@ mark {
     }
     [style*="--maxh-xl:"] {
       max-height: var(--maxh-lg) !important;
+    }
+    [style*="--bxs-xl:"] {
+      box-sizing: var(--bxs-lg) !important;
     }
     [style*="--p-xl:"] {
       padding: var(--p-lg) !important;
@@ -1696,6 +1770,9 @@ mark {
     [style*="-ttf-xl:"] {
       transition-timing-function: var(-ttf-lg) !important;
     }
+    [style*="--all-xl:"] {
+      all: var(--all-lg) !important;
+    }
     [style*="--ct-xl:"] {
       content: var(--ct-lg) !important;
     }
@@ -1704,6 +1781,16 @@ mark {
     }
     [style*="--bs-xl:"] {
       box-shadow: var(--bs-lg) !important;
+    }
+    [style*="--cr-xl:"] {
+      clear: var(--cr-lg) !important;
+    }
+    [style*="--ct-xl:"] {
+      content: var(--ct-lg) !important;
+    }
+    [style*="--fr-xl:"] {
+      -webkit-filter: var(--fr-lg) !important;
+              filter: var(--fr-lg) !important;
     }
 }
 @media only screen and (min-width:768px) {
@@ -1824,6 +1911,24 @@ mark {
     [style*="--ps-md:"] {
       place-self: var(--ps-sm) !important;
     }
+    [style*="--us-md:"] {
+      -webkit-user-select: var(--us-sm) !important;
+         -moz-user-select: var(--us-sm) !important;
+          -ms-user-select: var(--us-sm) !important;
+              user-select: var(--us-sm) !important;
+    }
+    [style*="--oe-md:"] {
+      outline: var(--oe-sm) !important;
+    }
+    [style*="--pe-md:"] {
+      pointer-events: var(--pe-sm) !important;
+    }
+    [style*="--sb-md:"] {
+      scroll-behavior: var(--sb-sm) !important;
+    }
+    [style*="--cur-md:"] {
+      cursor: var(--cur-sm) !important;
+    }
     [style*="--d-md:"] {
       display: var(--d-sm) !important;
     }
@@ -1859,6 +1964,15 @@ mark {
     [style*="--z-md:"] {
       z-index: var(--z-sm) !important;
     }
+    [style*="--of-md:"] {
+      overflow: var(--of-sm) !important;
+    }
+    [style*="--ofx-md:"] {
+      overflow-x: var(--ofx-sm) !important;
+    }
+    [style*="--ofy-md:"] {
+      overflow-y: var(--ofy-sm) !important;
+    }
     [style*="--w-md:"] {
       width: var(--w-sm) !important;
     }
@@ -1876,6 +1990,9 @@ mark {
     }
     [style*="--maxh-md:"] {
       max-height: var(--maxh-sm) !important;
+    }
+    [style*="--bxs-md:"] {
+      box-sizing: var(--bxs-sm) !important;
     }
     [style*="--p-md:"] {
       padding: var(--p-sm) !important;
@@ -1976,6 +2093,9 @@ mark {
     [style*="-ttf-md:"] {
       transition-timing-function: var(-ttf-sm) !important;
     }
+    [style*="--all-md:"] {
+      all: var(--all-sm) !important;
+    }
     [style*="--ct-md:"] {
       content: var(--ct-sm) !important;
     }
@@ -1984,6 +2104,16 @@ mark {
     }
     [style*="--bs-md:"] {
       box-shadow: var(--bs-sm) !important;
+    }
+    [style*="--cr-md:"] {
+      clear: var(--cr-sm) !important;
+    }
+    [style*="--ct-md:"] {
+      content: var(--ct-sm) !important;
+    }
+    [style*="--fr-md:"] {
+      -webkit-filter: var(--fr-sm) !important;
+              filter: var(--fr-sm) !important;
     }
 }
 @media only screen and (min-width:1024px) {
@@ -2104,6 +2234,24 @@ mark {
     [style*="--ps-lg:"] {
       place-self: var(--ps-md) !important;
     }
+    [style*="--us-lg:"] {
+      -webkit-user-select: var(--us-md) !important;
+         -moz-user-select: var(--us-md) !important;
+          -ms-user-select: var(--us-md) !important;
+              user-select: var(--us-md) !important;
+    }
+    [style*="--oe-lg:"] {
+      outline: var(--oe-md) !important;
+    }
+    [style*="--pe-lg:"] {
+      pointer-events: var(--pe-md) !important;
+    }
+    [style*="--sb-lg:"] {
+      scroll-behavior: var(--sb-md) !important;
+    }
+    [style*="--cur-lg:"] {
+      cursor: var(--cur-md) !important;
+    }
     [style*="--d-lg:"] {
       display: var(--d-md) !important;
     }
@@ -2139,6 +2287,15 @@ mark {
     [style*="--z-lg:"] {
       z-index: var(--z-md) !important;
     }
+    [style*="--of-lg:"] {
+      overflow: var(--of-md) !important;
+    }
+    [style*="--ofx-lg:"] {
+      overflow-x: var(--ofx-md) !important;
+    }
+    [style*="--ofy-lg:"] {
+      overflow-y: var(--ofy-md) !important;
+    }
     [style*="--w-lg:"] {
       width: var(--w-md) !important;
     }
@@ -2156,6 +2313,9 @@ mark {
     }
     [style*="--maxh-lg:"] {
       max-height: var(--maxh-md) !important;
+    }
+    [style*="--bxs-lg:"] {
+      box-sizing: var(--bxs-md) !important;
     }
     [style*="--p-lg:"] {
       padding: var(--p-md) !important;
@@ -2256,6 +2416,9 @@ mark {
     [style*="-ttf-lg:"] {
       transition-timing-function: var(-ttf-md) !important;
     }
+    [style*="--all-lg:"] {
+      all: var(--all-md) !important;
+    }
     [style*="--ct-lg:"] {
       content: var(--ct-md) !important;
     }
@@ -2264,6 +2427,16 @@ mark {
     }
     [style*="--bs-lg:"] {
       box-shadow: var(--bs-md) !important;
+    }
+    [style*="--cr-lg:"] {
+      clear: var(--cr-md) !important;
+    }
+    [style*="--ct-lg:"] {
+      content: var(--ct-md) !important;
+    }
+    [style*="--fr-lg:"] {
+      -webkit-filter: var(--fr-md) !important;
+              filter: var(--fr-md) !important;
     }
 }
 

@@ -38,11 +38,21 @@ The `--py` helper anchors adds equal padding on both sides of the vertical axis 
 The `--mx` helper anchors adds equal margin on both sides of the horizontal axis of an element. The value of this helper collectively sets `margin-left` and `margin-right` CSS properties. 
 
 {{< helper-demo property="mx" min="0" max="80" value="15" target="target-mx" unit="px" >}}
-<figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
-    <figcaption id="target-mx" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
+<figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#ddd;">
+    <figcaption id="target-mx" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; --mx:15px">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </figcaption>
 </figure>
 {{< /helper-demo >}}
 
 
+#### \-\-my
+The `--my` helper anchors adds equal margin on both sides of the vertical axis of an element. The value of this helper collectively sets `margin-top` and `margin-bottom` CSS properties. 
+
+{{< helper-demo property="my" min="0" max="80" value="15" target="target-my" unit="px" >}}
+<figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#ddd;">
+    <figcaption id="target-my" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; --my:15px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </figcaption>
+</figure>
+{{< /helper-demo >}}
