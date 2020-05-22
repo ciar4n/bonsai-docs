@@ -43,7 +43,9 @@
   text-align: center;
 }
 
-.hidden {
+.hidden,
+input[type="checkbox"].hidden,
+input[type="radio"].hidden {
   display: none;
 }
 

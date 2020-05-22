@@ -282,7 +282,6 @@ fieldset > legend:first-of-type {
 
   border: 0;
   box-shadow: none;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
 }
 .group {
   display: inline-flex;

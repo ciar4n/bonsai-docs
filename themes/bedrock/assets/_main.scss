@@ -70,8 +70,6 @@ ul.pagination {
   nav {
     width: $menu-width;
     padding: $padding-16;
-
-    @include fixed;
   }
 
   a {
@@ -295,10 +293,10 @@ aside nav,
     display: block;
   }
 
-  #menu-control:checked + main {
-
+  #menu-control:checked ~ main {
     .book-menu nav,
-    .book-page {
+    .book-page,
+    .book-menu > a > img {
       transform: translateX($menu-width);
     }
 
