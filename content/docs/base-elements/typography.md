@@ -5,7 +5,7 @@ weight: 1
 
 ## Typography
 
-Before you even start adding class or style attributes, **Bedrock CSS** applies a base styling to your semantic HTML elements. Simply load **Bedrock CSS** and base HTML elements will be styled beautifully with zero effort.
+Before you even start adding class or style attributes, **Bonsai CSS** applies a base styling to your semantic HTML elements. Simply load **Bonsai CSS** and base HTML elements will be styled beautifully with zero effort.
 
 ### Paragraphs & Inline Elements
 

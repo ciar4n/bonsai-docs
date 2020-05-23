@@ -5,7 +5,7 @@ bookToc: false
 
 ## Shadow Helpers
 
-#### Bedrock includes a collection of helpers for creating beautiful shadow effects to any box element.
+#### Bonsai includes a collection of helpers for creating beautiful shadow effects to any box element.
 
 <br>
 

@@ -7,13 +7,13 @@ weight: 4
 
 ### CSS Utilities
 
-Utilities allow you to quickly apply single CSS properties to an element directly within your HTML markup without having to write any code in a separate CSS file. Contrary to other CSS frameworks which use the class attribute, Bedrock CSS is unique in that it applies utilities through CSS variables and the style attribute. This has a number of distinct improvements over class based utilities.
+Utilities allow you to quickly apply single CSS properties to an element directly within your HTML markup without having to write any code in a separate CSS file. Contrary to other CSS frameworks which use the class attribute, Bonsai CSS is unique in that it applies utilities through CSS variables and the style attribute. This has a number of distinct improvements over class based utilities.
 
-- **Use of all values** - With class based utlities you can only assign a set number of values pre defined by the framework. Bedrock CSS does not have this restraint. Any valid value for the CSS property can be applied.
-- **Filesize** - One of the biggest drawbacks to date with utility based CSS frameworks is their large filesize. The developent version of Tailwind for example, minified is a rather large **1599.8kb**. Bedrock CSS with the same feature set comes in at less than **50kb**. 
+- **Use of all values** - With class based utlities you can only assign a set number of values pre defined by the framework. Bonsai CSS does not have this restraint. Any valid value for the CSS property can be applied.
+- **Filesize** - One of the biggest drawbacks to date with utility based CSS frameworks is their large filesize. The developent version of Tailwind for example, minified is a rather large **1599.8kb**. Bonsai CSS with the same feature set comes in at less than **50kb**. 
 
 #### What about responsive
-Bedrock utilities are perfect for developing fully responsive interfaces. Each utility can be applied conditionally to a screensize allowing you total responsive control.
+Bonsai utilities are perfect for developing fully responsive interfaces. Each utility can be applied conditionally to a screensize allowing you total responsive control.
 
 To apply a utility to a certain screensize simply append the utility shorthand with a '-' followed by the screen size. Utilities use a mobile-first approach so if you append with for example `-md`, that utility will be applied to the medium screensize and up.
 

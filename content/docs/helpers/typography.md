@@ -5,7 +5,7 @@ bookToc: false
 
 ## Typography Helpers
 
-#### Bedrock includes a collection of typography helpers for creating beautiful shadow effects to any box element.
+#### Bonsai includes a collection of typography helpers for creating beautiful shadow effects to any box element.
 
 <br>
 

@@ -5,9 +5,9 @@ bookToc: false
 
 <div id="learn-more"></div>
 
-### Why build with Bedrock
+### Why build with Bonsai
 
-Bedrock is a complete CSS solution allowing you to build beautifully crafted web interfaces with ease. Leave behind the bulky dependancies normally assiociated with utility first frameworks. Bedrock's unique approach gives a complete toolset while providing a performant responsive solution.
+Bonsai is a complete CSS solution allowing you to build beautifully crafted web interfaces with ease. Leave behind the bulky dependancies normally assiociated with utility first frameworks. Bonsai's unique approach gives a complete toolset while providing a performant responsive solution.
 
 - A complete utility-first CSS framework solution. 
 - Classless base styling of semantic HTML elements
@@ -22,7 +22,7 @@ When talking about CSS frameworks, the term 'utility' generally refers to a CSS 
 - No more inventing class names for each element
 - CSS size remains constant as your project grows
 
-There is nothing new about the concept of utility first CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bedrock however, is how these utilities are implemented. Traditionally utility first frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS filesize it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bedrock CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
+There is nothing new about the concept of utility first CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bonsai however, is how these utilities are implemented. Traditionally utility first frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS filesize it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bonsai CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
 
 ##### Style based utilities
 
@@ -55,7 +55,7 @@ By default there are four breakpoints set in correspondance with the most common
 
 To assign a utility to a set screensize breakpoint simply prepend with a `-` followed by the breakpoint shorthand name. Media queries by default use a mobile-first approach, which as it sounds is designing for the smallest screen and working your way up.
 
-Consider the following example where `--d` is the Bedrock utility for the `display` CSS property.
+Consider the following example where `--d` is the Bonsai utility for the `display` CSS property.
 
 {{< highlight html "linenos=false" >}}
 /* Button is `disply:block` by default. `display:none` from medium size screens up. */
@@ -365,6 +365,6 @@ Consider the following example where `--d` is the Bedrock utility for the `displ
     </div>
     <div style="--pos:absolute; --left:0; --right:0; --bottom:0; --grad-bottom:white; --p: 600px 0 200px">
       <img src="logo.png" alt="bedrockcss" style="--m:40px auto 0; --d: block;">
-      <h1 style="--ta:center;">Get creative with Bedrock CSS</h1>
+      <h1 style="--ta:center;">Get creative with Bonsai CSS</h1>
     </div>
 </div>
