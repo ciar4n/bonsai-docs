@@ -1,5 +1,6 @@
 ---
-title: Introduction
+title: "Bonsai CSS - A complete Utility First CSS Framework for less than 50kb"
+description: "A complete CSS solution allowing you to build beautifully crafted web interfaces with ease."
 bookToc: false
 ---
 
@@ -11,7 +12,7 @@ Bonsai is a complete CSS solution allowing you to build beautifully crafted web 
 
 - A complete utility-first CSS framework solution. 
 - Classless base styling of semantic HTML elements
-- All packed inside 44kb.
+- All packed inside less than 50kb.
 - Drop n Build - No compiling required
 
 ### Utility first CSS
