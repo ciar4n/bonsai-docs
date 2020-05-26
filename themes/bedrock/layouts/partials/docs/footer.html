@@ -1,4 +1,16 @@
-<div class="flex justify-between">
+<div style="--d:flex; --jc:center; --fd:column">
+
+<div style="--ta:center; --mb:1rem">
+<a class="github-button" href="https://github.com/bonsaicss/bonsai.css" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star bonsaicss/bonsai.css on GitHub">Star</a>
+<a class="github-button" href="https://github.com/bonsaicss/bonsai.css/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork bonsaicss/bonsai.css on GitHub">Fork</a>
+<a class="github-button" href="https://github.com/bonsaicss/bonsai.css/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download bonsaicss/bonsai.css on GitHub">Download</a>
+</div>
+
+<div style="--m:auto; --ta:center; --op:.7">
+  <p style="--mb:0">Carefully crafted by the Bonsai.css team with the help of <a href="https://github.com/bonsaicss/bonsai.css/graphs/contributors">our contributors</a>.</p>
+  <p style="--mb:2rem">Bonsai.css licensed <a href="hhttps://github.com/bonsaicss/bonsai.css/blob/master/LICENSE.md" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</p>
+</div>
+
 {{ if .Site.IsMultiLingual }}
   {{ partial "docs/languages" . }}
 {{ end }}
