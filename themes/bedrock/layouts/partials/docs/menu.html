@@ -1,6 +1,6 @@
 <nav style=" --pr:2rem; --br:1px solid #ddd">
   <div style="--weight:bold;--pt:1rem">Getting Started</div>
-  <a href="{{ .Site.BaseURL | relLangURL }}" style="--mb:.2rem; --d:block">
+  <a href="{{ .Site.BaseURL | relLangURL }}" style="--mb:.2rem; --d:block; {{ if eq (relURL .URL) ("/" | safeHTML) }}--c:var(--primary){{ end }}">
     Introduction
   </a>
 {{ partial "docs/inject/menu-before" . }}

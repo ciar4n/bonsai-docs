@@ -56,10 +56,9 @@ By default there are four breakpoints set in correspondance with the most common
 
 To assign a utility to a set screensize breakpoint simply prepend with a `-` followed by the breakpoint shorthand name. Media queries by default use a mobile-first approach, which as it sounds is designing for the smallest screen and working your way up.
 
-Consider the following example where `--d` is the Bonsai utility for the `display` CSS property.
+Consider the following example where `--d` is the Bonsai utility for the `display` CSS property. Button is `disply:block` by default. `display:none` from medium size screens up.
 
 {{< highlight html "linenos=false" >}}
-/* Button is `disply:block` by default. `display:none` from medium size screens up. */
 <button style="--d:block; --d-md:none">Only visible on small screens</button>
 {{< / highlight >}}
 
@@ -67,7 +66,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
 
 <br>
 
-<div style="--cc:3; --cg:1.5rem; --bg:#eee; --p:1.5rem; --pos:relative">
+<div style="--cc:1; --cc-sm:2; --cc-xl:3; --cg:1.5rem; --bg:#eee; --p:1.5rem; --pos:relative">
     <figure class="accent" style="--mb:1.5rem;">
         <img src="https://source.unsplash.com/e0qLqlrmEHk/340x220" alt="Aliquam erat volutpat">
         <figcaption>
@@ -165,7 +164,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
     </span>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
         <div style="--pos:absolute; --inset:0">
-          <img style="--of:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/eluzJSfkNCk/300x400" alt="Aliquam erat volutpat">
+          <img style="--objf:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/eluzJSfkNCk/300x400" alt="Aliquam erat volutpat">
         </div>
         <div style="--p:1rem">
           <button class="white" style="--w:100%" aria-label="Sample Button">Sign in</button>
@@ -179,7 +178,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
     </div>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
       <div style="--pos:absolute; --inset:0">
-        <img style="--of:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/aExT3y92x5o/400x350" alt="Aliquam erat volutpat">
+        <img style="--objf:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/aExT3y92x5o/400x350" alt="Aliquam erat volutpat">
       </div>
       <button style="--pos:absolute; --top:8px; --right:0; --bg:var(--primary); --p:8px 5px;" aria-label="Sample Button">
         <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
@@ -303,7 +302,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
     </div>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
       <div style="--pos:absolute; --inset:0">
-        <img style="--of:cover; --h:100%; --w:100%; --op:.7" src="https://source.unsplash.com/76-58HpxvpQ/350x400" alt="Image">
+        <img style="--objf:cover; --h:100%; --w:100%; --op:.7" src="https://source.unsplash.com/76-58HpxvpQ/350x400" alt="Image">
       </div>
       <button class="white" style="--pos:absolute; --top:8px; --right:0; --p:8px 5px; --bc:transparent" aria-label="Sample Button">
         <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -318,18 +317,18 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
         <span style="--size:.85em">(48 Reviews)</span>
       </div>
     </div>
-    <div style="--d:grid; --gar:1fr; --gg:10px;  --mb:1.5rem;">
-      <div style="--gc:1/2; --gr:1/3">
-        <img style="--h:100%; --of:cover" src="https://source.unsplash.com/z9vnGEGZPjw/400x400" alt="Aliquam erat volutpat">
+    <div style="--d:grid; --gar:200px; --gg:10px;  --mb:1.5rem;">
+      <div style="--gc:1/2; --gr:1/3;">
+        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/z9vnGEGZPjw/400x400" alt="Aliquam erat volutpat">
       </div>
       <div style="--gc:2/3; --gr:1/2;">
-        <img style="--h:100%; --of:cover" src="https://source.unsplash.com/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
       </div>
-      <div style="--gc:1/2; --gr:3/4">
-        <img style="--h:100%; --of:cover" src="https://source.unsplash.com/gnG1q2d0mbA/400x400" alt="Aliquam erat volutpat">
+      <div style="--gc:1/2; --gr:3/4;">
+        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/gnG1q2d0mbA/400x400" alt="Aliquam erat volutpat">
       </div>
       <div style="--gc:2/3; --gr:2/4;">
-        <img style="--h:100%; --of:cover" src="https://source.unsplash.com/Dz6HuHE2Ki0/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/Dz6HuHE2Ki0/400x400" alt="Aliquam erat volutpat">   
       </div>
     </div>
     <div class="accent" style="--bg:white; --p:1.5rem; --mb:1.5rem;">
@@ -358,7 +357,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
     </div>
     <div style="--d:grid; --gtc:auto 2.2rem; --mb:1.5rem;">
       <div style="--gc:1/2;">
-        <img style="--h:100%; --of:cover" src="https://source.unsplash.com/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover" src="https://source.unsplash.com/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
       </div>
       <div style="--gc:2/3">
         <h3 style="--wm:vertical-lr">A Perfect Place</h3>

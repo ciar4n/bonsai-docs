@@ -47,6 +47,24 @@
   .book-tabs > input {
     visibility: hidden;
   }
+
+  ul {
+    list-style: none; 
+    margin-bottom: 2em;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: var(--primary);
+    font-weight: bold;
+    display: inline-block;
+    font-size: 2em;
+    width: .7em;
+    margin-left: -.5em;
+    line-height: 1em;
+    top: 3px;
+    position: relative;
+  }
 }
 
 .code-block {
@@ -69,4 +87,9 @@
   .highlight {
     margin-bottom: 0;
   }
+}
+
+.accent {
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
