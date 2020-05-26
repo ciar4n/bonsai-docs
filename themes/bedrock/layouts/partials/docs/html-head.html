@@ -7,7 +7,6 @@
 <title>{{ partial "docs/title" . }} | {{ .Site.Title -}}</title>
 <link rel="icon" href="{{ "favicon.png" | relURL }}" type="image/x-icon">
 
-<!-- Theme stylesheet, you can customize scss by creating `assets/custom.scss` in your website -->
 {{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
 
@@ -15,6 +14,21 @@
 {{ with $script.Content }}
   <script>{{ . | safeJS }}</script>
 {{ end }}
+
+<meta property="og:site_name" content="Bonsai CSS">
+<meta property="og:url" content="https://www.bonsai.css.com/">
+<meta property="og:title" content="Bonsai CSS">
+<meta property="og:type" content="website">
+<meta property="og:description" content="A complete Utility First CSS Framework for less than 50kb">
+
+<meta name="twitter:site" content="@_ciar4n">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bonsai CSS">
+<meta name="twitter:description" content="A complete Utility First CSS Framework for less than 50kb">
+<meta property="og:image" content="" />
+<meta property="og:image:secure_url" content="" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
 
 <script type="module">
   (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
