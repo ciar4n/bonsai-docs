@@ -10,7 +10,7 @@ bookToc: false
 <br>
 
 ### \-\-line-clamp
-The `--shadow` helper is the default shadow helper and adds a smooth box shadow to an element. Value of this helper collectively sets the offset, blur and intensity of the shadow.
+The `--line-clamp` helper allows you to easily set a line clamp on an element. The value of this helper defines the number of lines at which text will be clamped.
 
 {{< helper-demo property="line-clamp" min="1" max="10" value="4" target="target-line-clamp" >}}
 <div style="--maxw:400px; --br:5px; --bg:#fff; --of:hidden;">
