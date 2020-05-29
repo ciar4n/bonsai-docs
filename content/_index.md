@@ -8,11 +8,11 @@ bookToc: false
 
 ### Why build with Bonsai
 
-Bonsai CSS is a super lightweight, fully responsive, utlity first framework. All you need to build beautifully crafted web interfaces with ease.
+<h4 style="--lh:2.2rem">Bonsai CSS is a super lightweight, fully responsive, utlity first framework. All you need to build beautifully crafted web interfaces with ease.</h4>
 
 - A complete utility-first CSS framework solution
 - Classless base styling of semantic HTML elements
-- All packed inside a gziupped size of just **8kb**
+- All packed inside a gzipped size of just **8kb**
 - Drop n Build - No compiling required
 
 ### Utility first CSS
