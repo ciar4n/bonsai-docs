@@ -10,7 +10,7 @@ bookToc: false
 <br>
 
 #### \-\-grad
-The `--grad` helper adds a linear gradiant on the background of an element. By itself `--grad` sets the gradiant from black to transparent. The value can define either the direction (eg. `to top`, `to right`, etc) or the angle (eg. `180deg`). The gradiant color can be changed from the default of black with the addition of the `--grad-color` helper. This helper sets the `background-image` CSS property.
+The `--grad` helper adds a linear gradient on the background of an element. By itself `--grad` sets the gradient from black to transparent. The value can define either the direction (eg. `to top`, `to right`, etc) or the angle (eg. `180deg`). The gradient color can be changed from the default of black with the addition of the `--grad-color` helper. This helper sets the `background-image` CSS property.
 
 <div style="--d:flex; --mb:4rem;">
     <div style="--p:1rem; --fx:1; --bg:#eee; --as:flex-start; --maxw:600px;">

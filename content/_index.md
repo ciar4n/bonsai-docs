@@ -8,7 +8,7 @@ bookToc: false
 
 ### Why build with Bonsai
 
-Bonsai CSS is a super lightweight, fully responsive, utlity first framework. All you need to build build beautifully crafted web interfaces with ease.
+Bonsai CSS is a super lightweight, fully responsive, utlity first framework. All you need to build beautifully crafted web interfaces with ease.
 
 - A complete utility-first CSS framework solution
 - Classless base styling of semantic HTML elements
@@ -17,7 +17,7 @@ Bonsai CSS is a super lightweight, fully responsive, utlity first framework. All
 
 ### Utility first CSS
 
-When talking about CSS frameworks, the term 'utility' generally refers to a CSS class name that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A "**Utility First**" framework is built to promote this practice as the primary way to style elements within a HTML document and provide utilites for the majority of the more widely used CSS properties. 
+When talking CSS frameworks, the term 'utility' refers to a CSS class that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A "**Utility First**" framework is built to promote this practice as the primary way to style elements within a HTML document and provide utilites for the majority of the more widely used CSS properties. 
 
 - Less development spent swapping between HTML and CSS files
 - No more inventing class names for each element
