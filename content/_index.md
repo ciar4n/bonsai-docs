@@ -1,5 +1,5 @@
 ---
-title: "Bonsai CSS - A complete Utility First CSS Framework for less than 50kb"
+title: "Bonsai CSS - A complete Utility First CSS Framework for less than 10kB"
 description: "A complete CSS solution allowing you to build beautifully crafted web interfaces with ease."
 bookToc: false
 ---

@@ -82,7 +82,7 @@ The `--shadow-inset` helper adds an inset box shadow to the element. Value of th
 <figcaption>
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
 </figcaption>
-<div id="target-shadow-inset" style="--pos:absolute; --inlay:0; --shadow-inset:10; --z:1"></div>
+<div id="target-shadow-inset" style="--pos:absolute; --inset:0; --shadow-inset:10; --z:1"></div>
 </figure>
 {{< /helper-demo >}}
 

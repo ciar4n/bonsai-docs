@@ -19,7 +19,7 @@ Bonsai CSS can be added to your project by downloading from the [Github repo](ht
 Possibly the quickest and easiest way to include bonsai.css in to your project is through NPM
 
 {{< highlight html "linenos=false" >}}
-// Using npm
+// Using NPM
 npm install bonsai.css
 {{< / highlight >}}
 

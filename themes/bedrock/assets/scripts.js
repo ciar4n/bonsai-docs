@@ -20,11 +20,3 @@ function liveprop(svar, shorthand, unit, target) {
     });
 }
 
-(function() {
-    document.addEventListener("DOMContentLoaded", function() {
-        liveprop('padding', '--p', 'px', 'demo');
-        liveprop('maxw', '--maxw', 'px', 'demo');
-        liveprop('br', '--br', 'px', 'demo');
-        liveprop('levitate', '--levitate', '', 'demo');
-    });
-})();
