@@ -5,7 +5,7 @@ bookToc: false
 
 ## Spacing Helpers
 
-#### Collection of helpers to help position elements
+#### Collection of helpers for setting spacing of elements
 
 <br>
 

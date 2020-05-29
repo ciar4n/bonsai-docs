@@ -8,11 +8,11 @@ bookToc: false
 
 ### Why build with Bonsai
 
-Bonsai is a complete CSS solution allowing you to build beautifully crafted web interfaces with ease. Leave behind the bulky dependancies normally assiociated with utility first frameworks. Bonsai's unique approach gives a complete toolset while providing a performant responsive solution.
+Bonsai CSS is a super lightweight, fully responsive, utlity first framework. All you need to build build beautifully crafted web interfaces with ease.
 
-- A complete utility-first CSS framework solution. 
+- A complete utility-first CSS framework solution
 - Classless base styling of semantic HTML elements
-- All packed inside less than 50kb.
+- All packed inside a gziupped size of just **8kb**
 - Drop n Build - No compiling required
 
 ### Utility first CSS
