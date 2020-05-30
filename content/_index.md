@@ -15,6 +15,13 @@ bookToc: false
 - All packed inside a gzipped size of just **8kb**
 - Drop n Build - No compiling required
 
+<br>
+
+### Classless Base Element Styling
+Before you even start adding class or style attributes, **Bonsai CSS** applies a base styling to your semantic HTML elements. Simply load **Bonsai CSS** in to your project and your base HTML elements will be beautifully styled with zero effort.
+
+<br>
+
 ### Utility Complete CSS
 
 When talking CSS frameworks, the term 'utility' refers to a CSS class that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide utilites for the majority of CSS properties, allowing you to apply these properties to your HTML elements without touching any stylesheets.
@@ -32,6 +39,8 @@ There is nothing new about the concept of utility complete CSS and today you wil
 <div style="--bg:rgb(42,42,42)"><div>
 <div style="--bg:rgba(0,0,0,.8)"><div>
 {{< / highlight >}}
+
+<br>
 
 ### Responsive design and media queries
 
@@ -60,6 +69,8 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
 {{< highlight html "linenos=false" >}}
 <button style="--d:block; --d-md:none">Only visible on small screens</button>
 {{< / highlight >}}
+
+<br>
 
 <h2 style="--ta: center;">Discover limitless possibilites</h2>
 
