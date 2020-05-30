@@ -1,5 +1,5 @@
 ---
-title: "Bonsai CSS - A complete Utility First CSS Framework for less than 10kB"
+title: "Bonsai CSS - A Utility Complete CSS Framework for less than 10kb"
 description: "A complete CSS solution allowing you to build beautifully crafted web interfaces with ease."
 bookToc: false
 ---
@@ -8,22 +8,21 @@ bookToc: false
 
 ### Why build with Bonsai
 
-<h4 style="--lh:2.2rem">Bonsai CSS is a super lightweight, fully responsive, utlity first framework. All you need to build beautifully crafted web interfaces with ease.</h4>
+<h4 style="--lh:2.2rem">Bonsai CSS is a super lightweight, fully responsive, utlity complete framework. All you need to build beautifully crafted web interfaces with ease.</h4>
 
-- A complete utility-first CSS framework solution
+- A utility complete CSS framework solution
 - Classless base styling of semantic HTML elements
 - All packed inside a gzipped size of just **8kb**
 - Drop n Build - No compiling required
 
-### Utility first CSS
+### Utility Complete CSS
 
-When talking CSS frameworks, the term 'utility' refers to a CSS class that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A "**Utility First**" framework is built to promote this practice as the primary way to style elements within a HTML document and provide utilites for the majority of the more widely used CSS properties. 
+When talking CSS frameworks, the term 'utility' refers to a CSS class that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide utilites for the majority of CSS properties, allowing you to apply these properties to your HTML elements without touching any stylesheets.
 
-- Less development spent swapping between HTML and CSS files
-- No more inventing class names for each element
+- Super quick protyping with out leaving your HTML
 - CSS size remains constant as your project grows
 
-There is nothing new about the concept of utility first CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bonsai however, is how these utilities are implemented. Traditionally utility first frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS filesize it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bonsai CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
+There is nothing new about the concept of utility complete CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bonsai however, is how these utilities are implemented. Traditionally utility complete frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS filesize it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bonsai CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
 
 ##### Style based utilities
 
