@@ -24,6 +24,8 @@ Before you even start adding class or style attributes, **Bonsai CSS** applies a
 
 ### Utility Complete CSS
 
+In terms of CSS frameworks, utilities are commonly refered to a CSS class which applies a single CSS property to an element. 
+
 When talking CSS frameworks, the term 'utility' refers to a CSS class that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide utilites for the majority of CSS properties, allowing you to apply these properties to your HTML elements without touching any stylesheets.
 
 - Super quick protyping with out leaving your HTML
@@ -374,7 +376,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
       </div>
     </div>
     <div style="--pos:absolute; --left:0; --right:0; --bottom:0; --grad-bottom:white; --p: 600px 0 200px">
-      <img src="logo.png" alt="bedrockcss" style="--m:40px auto 0; --d: block;">
+      <img src="logo.png" alt="bonsaicss" style="--m:40px auto 0; --d: block;">
       <h1 style="--ta:center;">Get creative with Bonsai CSS</h1>
     </div>
 </div>
