@@ -65,7 +65,7 @@
     </div>
   </header>
   {{ end }}
-  <main style="--d:flex; --maxw:80rem; --m:0 auto;">
+  <main style="--d:flex; --maxw:80rem; --m:0 auto; --of:hidden">
     <aside class="book-menu" style="--fx:0 0 16rem; --ta:right; --pos:sticky; --top:0; --as:flex-start; --minh:100vh; --d:flex; --fd:column">
       {{ if eq (relURL .URL) ("/" | safeHTML) }}{{ else }}
         <a href="{{ .Site.BaseURL | relLangURL }}">
