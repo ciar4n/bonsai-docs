@@ -24,9 +24,7 @@ Before you even start adding class or style attributes, **Bonsai CSS** applies a
 
 ### Utility Complete CSS
 
-In terms of CSS frameworks, utilities are commonly refered to a CSS class which applies a single CSS property to an element. 
-
-When talking CSS frameworks, the term 'utility' refers to a CSS class that applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide utilites for the majority of CSS properties, allowing you to apply these properties to your HTML elements without touching any stylesheets.
+In terms of CSS frameworks, utilities are commonly refer to a CSS class which applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide utilites for the majority of CSS properties, allowing you to apply these properties to your HTML elements without touching any stylesheets.
 
 - Super quick protyping with out leaving your HTML
 - CSS size remains constant as your project grows
