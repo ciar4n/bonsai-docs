@@ -294,6 +294,7 @@ aside nav,
   }
 
   #menu-control:checked ~ main {
+    overflow: hidden;
     .book-menu nav,
     .book-page,
     .book-menu > a > img {
