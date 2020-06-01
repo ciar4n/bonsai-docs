@@ -1,7 +1,7 @@
 baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Bonsai.css"
-theme = "bedrock"
+theme = "bonsai"
 
 pygmentsUseClasses = true
 
