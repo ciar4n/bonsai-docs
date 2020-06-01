@@ -10,7 +10,7 @@ weight: 1
 Bonsai CSS can be added to your project by downloading from the [Github repo](https://github.com/bonsaicss/bonsai.css). Extract and include the ./dist/bedrock.min.css into your project, linking in your document head. 
 
 {{< highlight html "linenos=false" >}}
-<link rel="stylesheet" href="bonsai.min.css" type="text/css">
+<link href="bonsai.min.css" rel="stylesheet">
 {{< / highlight >}}
 
 
@@ -30,5 +30,5 @@ To grab from CDN you can use the following.
 
 {{< highlight html "linenos=false" >}}
 // Using CDN
-<link href="https://unpkg.com/bonsai.css@1.0.0/dist/bonsai.min.css" rel="stylesheet" />
+<link href="https://unpkg.com/bonsai.css@1.0.0/dist/bonsai.min.css" rel="stylesheet">
 {{< / highlight >}}
