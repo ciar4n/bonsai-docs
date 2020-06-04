@@ -30,5 +30,5 @@ To grab from CDN you can use the following.
 
 {{< highlight html "linenos=false" >}}
 // Using CDN
-<link href="https://unpkg.com/bonsai.css@1.0.0/dist/bonsai.min.css" rel="stylesheet">
+<link href="https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css" rel="stylesheet">
 {{< / highlight >}}
