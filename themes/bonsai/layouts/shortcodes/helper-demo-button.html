@@ -1,0 +1,15 @@
+<div style="--d:flex; --mb:4rem;">
+    <div style="--p:1rem; --fx:1; --bg:#eee; --as:flex-start; --maxw:600px;">
+        <div style="--fx:1; --p:3rem; --mb:.5rem; --d:flex; --jc:center;">
+            {{- .Inner | markdownify  -}}
+        </div>
+            <div>
+                <input class="slider" type="range" id="{{ .Get "property" }}" name="{{ .Get "property" }}" min="{{ .Get "min" }}" max="{{ .Get "max" }}" value="{{ .Get "value" }}">
+            </div>
+            <div class="markdown" style="--maxw:800px; --w:100%; --pos:relative;">
+<div class="highlight" style="--mb:0;"><pre class="chroma" style="--mt:.75rem;"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">button</span> <span class="na">style</span><span class="o">=</span><span class="s">"<span id="{{ .Get "property" }}-label">--{{ .Get "property" }}:100;</span>{{ .Get "append" }}"</span></span><span class="p"></span><span class="p">&gt;</span> Button <span class="p">&lt;</span><span class="p">/</span><span class="nt">button</span><span class="p">&gt;</span></code></pre>
+            </div>
+        </div>
+    </div>  
+</div>
+<script>liveprop('{{ .Get "property" }}', '--{{ .Get "property" }}', '{{ .Get "unit" }}', '{{ .Get "target" }}');</script>

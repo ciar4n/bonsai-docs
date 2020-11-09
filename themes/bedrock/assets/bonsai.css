@@ -130,7 +130,7 @@ details > summary,
   font-size: calc(var(--x, 100) * 1%);
 
   position: relative;
-  margin: calc(var(--x, 100) * .005rem) calc(var(--x, 100) * .005rem) calc(var(--x, 100) * .005rem) 0;
+  margin: .5rem .5rem .5rem 0;
   padding: calc(var(--x, 100) * .08px) calc(var(--x, 100) * .12px);
   width: 100%;
   box-sizing: border-box;
