@@ -23,7 +23,7 @@ The `--x` helper works across all form elements including button groups, select 
 
 <div style="--d:flex; --mb:4rem;">
     <div style="--p:1rem; --fx:1; --bg:#eee; --as:flex-start; --maxw:600px;">
-        <div style="--fx:1; --p:3rem 1rem; --mb:.5rem; --d:flex; --jc:center;">
+        <div style="--fx:1; --p:3rem 1rem; --mb:.5rem; --d:flex; --jc:center; --ai: center; --minh: 180px">
             <div id="target-x-group" class="group"  style="--x:100;">
   <input type="text" placeholder="John" aria-label="Name">
   <button>Button</button>
@@ -50,7 +50,7 @@ The `--x` helper can be applied to the outside container of a collection of form
 
 <div style="--d:flex; --mb:4rem;">
     <div style="--p:1rem; --fx:1; --bg:#eee; --as:flex-start; --maxw:600px;">
-        <div style="--fx:1; --p:3rem 1rem; --mb:.5rem; --d:flex;">
+        <div style="--fx:1; --p:1.5rem 1rem; --mb:.5rem; --d:flex; --ai: flex-start; --minh: 360px">
           <form id="target-x-form" style="--x: 100;">
           <label>Username
             <input type="text" placeholder="John">
