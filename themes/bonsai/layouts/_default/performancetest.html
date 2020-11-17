@@ -1,17 +1,8 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <meta charset='utf-8'>
-    <title>bonsai.css</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='apple-mobile-web-app-title' content='bonsai.css'>
-    <meta name='application-name' content='bonsai.css'>
-    <meta name='msapplication-config' content='icons/browserconfig.xml'>
-    <meta name='theme-color' content='#ffffff'>
-    <meta name="description" content="Largely classless, blazing fast and super light-weight. Bonsai, a CSS framework for modern browsers.">
-    <link id='stylesheet' rel='stylesheet' href='dist/bonsai.min.css'>
-    <link rel='manifest' href='icons/manifest.json'>
-    <link rel='shortcut icon' href='icons/favicon.ico'>
+    {{ partial "docs/html-head" . }}
+    {{ partial "docs/inject/head" . }}
 
     <style>
     section {
@@ -26,14 +17,14 @@
   </head>
 
   <body style="--maxw:1000px; --m:20px auto; --p:0 3vw; --bg:#f5f5f5; --c:#202020">
-    <img src="logo.png" alt="bonsai" style="--m:40px auto 0; --d:block">
+    <img src="../logo.png" alt="bonsai" style="--m:40px auto 0; --d:block">
     <h1 style="--ta:center">bonsai.css</h1>
     <p style="--ta:center; --maxw:450px; --m:0 auto 3rem">All the versatility with none of the weight</p>
 
 
     <section>
-      <h3 class="primary">Performance Tests</h3>
-      <p>Some basic performance / rendering tests. Open the console to view the result. Base on 100000 iterations of setting margin on this button element.</p>
+      <h3 class="primary">Performance Test</h3>
+      <p>Basic performance / rendering tests. Open the console to view the result. Based on 100000 iterations of setting margin on button element.</p>
 
       <div id="test-target"></div>
 
