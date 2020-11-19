@@ -24,12 +24,12 @@ Before you even start adding class or style attributes, **Bonsai CSS** applies a
 
 ### Utility Complete CSS
 
-In terms of CSS frameworks, utilities commonly refer to a CSS class which applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide a complete set of utilites for the majority of CSS properties.
+In terms of CSS frameworks, utilities commonly refer to a CSS class which applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide a complete set of utilities for the majority of CSS properties.
 
-- Super quick protyping with out leaving your HTML
+- Super quick prototyping without leaving your HTML
 - CSS size remains constant as your project grows
 
-There is nothing new about the concept of utility complete CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bonsai however, is how these utilities are implemented. Traditionally utility complete frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS filesize it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bonsai CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
+There is nothing new about the concept of utility complete CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bonsai however, is how these utilities are implemented. Traditionally utility complete frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS file size it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bonsai CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
 
 ##### Style based utilities
 
@@ -44,9 +44,9 @@ There is nothing new about the concept of utility complete CSS and today you wil
 
 ### Responsive design and media queries
 
-Where relavent utilities can be applied conditionally to each screensize. This allows you to apply utilities to specific screen size making responsive design a walk in the park.
+Where relevant utilities can be applied conditionally to each screensize. This allows you to apply utilities to specific screen size making responsive design a walk in the park.
 
-By default there are four breakpoints set in correspondance with the most common device resolutions.
+By default there are four breakpoints set in correspondence with the most common device resolutions.
 
 {{< highlight css "linenos=false" >}}
 /* Small '-sm' */
@@ -64,7 +64,7 @@ By default there are four breakpoints set in correspondance with the most common
 
 To assign a utility to a set screensize breakpoint simply prepend with a `-` followed by the breakpoint shorthand name. Media queries by default use a mobile-first approach, which as it sounds is designing for the smallest screen and working your way up.
 
-Consider the following example where `--d` is the Bonsai utility for the `display` CSS property. Button is `disply:block` by default. `display:none` from medium size screens up.
+Consider the following example where `--d` is the Bonsai utility for the `display` CSS property. Button is `display:block` by default. `display:none` from medium size screens up.
 
 {{< highlight html "linenos=false" >}}
 <button style="--d:block; --d-md:none">Only visible on small screens</button>
@@ -72,7 +72,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
 
 <br>
 
-<h2 style="--ta: center;">Discover limitless possibilites</h2>
+<h2 style="--ta: center;">Discover limitless possibilities</h2>
 
 <br>
 
