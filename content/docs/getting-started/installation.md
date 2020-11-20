@@ -16,11 +16,33 @@ Bonsai CSS can be added to your project by downloading from the [Github repo](ht
 
 ### Install via NPM
 
-Possibly the quickest and easiest way to include bonsai.css in to your project is through NPM
+Possibly the quickest and easiest way to include bonsai.css in to your project is through NPM or yarn.
 
-{{< highlight html "linenos=false" >}}
+{{< highlight bash "linenos=false" >}}
 // Using NPM
 npm install bonsai.css
+{{< / highlight >}}
+
+
+### Install via Yarn
+
+{{< highlight bash "linenos=false" >}}
+// Using NPM
+yarn add bonsai.css
+{{< / highlight >}}
+
+
+### Import CSS in React
+
+{{< highlight javascript "linenos=false" >}}
+import 'bonsai.css/dist/bonsai.min.css';
+{{< / highlight >}}
+
+
+### Import CSS in Vue.js
+
+{{< highlight html "linenos=false" >}}
+<style src='bonsai.css/dist/bonsai.min.css' />
 {{< / highlight >}}
 
 
