@@ -31,3 +31,15 @@ The `--translatey` helper set the `transform: ransitionY()` property allowing yo
     </figcaption>
 </figure>
 {{< /helper-demo >}}
+
+
+#### \-\-scale
+The `--scale` helper set the `transform: scale()` property allowing you to transform an element on the vertical axis.
+
+{{< helper-demo property="scale" min="50" max="150" value="100" target="target-scale" unit="%" >}}
+<figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
+    <figcaption id="target-scale" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </figcaption>
+</figure>
+{{< /helper-demo >}}
