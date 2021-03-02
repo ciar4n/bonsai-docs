@@ -10,7 +10,7 @@ bookToc: false
 <br>
 
 #### \-\-translatex
-The `--translatex` helper set the `transform: ransitionX()` property allowing you to transform an element on vertical axis.
+The `--translatex` helper set the `transform: tansitionX()` property allowing you to transform an element on the vertical axis.
 
 {{< helper-demo property="translatex" min="-50" max="50" value="0" target="target-translatex" unit="px" >}}
 <figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
@@ -22,7 +22,7 @@ The `--translatex` helper set the `transform: ransitionX()` property allowing yo
 
 
 #### \-\-translatey
-The `--translatey` helper set the `transform: ransitionY()` property allowing you to transform an element on the vertical axis.
+The `--translatey` helper set the `transform: tansitionY()` property allowing you to transform an element on the vertical axis.
 
 {{< helper-demo property="translatey" min="-45" max="40" value="0" target="target-translatey" unit="px" >}}
 <figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
