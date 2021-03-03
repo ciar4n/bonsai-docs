@@ -43,3 +43,15 @@ The `--scale` helper set the `transform: scale()` property allowing you to trans
     </figcaption>
 </figure>
 {{< /helper-demo >}}
+
+
+#### \-\-rotate
+The `--rotate` helper set the `transform: rotate()` property allowing you to transform an element rotation.
+
+{{< helper-demo property="rotate" min="-50" max="50" value="0" target="target-rotate" unit="deg" >}}
+<figure style="--maxw:150px; --br:5px; --pos:relative; --bg:#eee">
+    <figcaption id="target-rotate" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </figcaption>
+</figure>
+{{< /helper-demo >}}
