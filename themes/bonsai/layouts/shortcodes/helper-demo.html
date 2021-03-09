@@ -7,7 +7,7 @@
                 <input class="slider" type="range" id="{{ .Get "property" }}" name="{{ .Get "property" }}" min="{{ .Get "min" }}" max="{{ .Get "max" }}" value="{{ .Get "value" }}">
             </div>
             <div class="markdown" style="--maxw:800px; --w:100%; --pos:relative;">
-<div class="highlight" style="--mb:0;"><pre class="chroma" style="--mt:.75rem;"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">"<span id="{{ .Get "property" }}-label">--{{ .Get "property" }}:3;</span>{{ .Get "append" }}"</span></span><span class="p"></span><span class="p">&gt;</span> ... <span class="p">&lt;</span><span class="p">/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
+<div class="highlight" style="--mb:0;"><pre class="chroma" style="--mt:.75rem;"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">style</span><span class="o">=</span><span class="s">"<span id="{{ .Get "property" }}-label">--{{ .Get "property" }}:{{ .Get "value" }}{{ .Get "unit" }};</span>{{ .Get "append" }}"</span></span><span class="p"></span><span class="p">&gt;</span> ... <span class="p">&lt;</span><span class="p">/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre>
             </div>
         </div>
     </div>  
