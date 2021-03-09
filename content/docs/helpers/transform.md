@@ -57,7 +57,7 @@ The `--translatex-hvr` helper set the `transform: tansitionX()` property allowin
 {{< /helper-demo >}}
 
 #### \-\-scale
-The `--scale` helper set the `transform: scale()` property allowing you to transform an element on the vertical axis.
+The `--scale` helper set the `transform: scale()` property allowing you to transform an element scale.
 
 {{< helper-demo property="scale" min="50" max="150" value="100" target="target-scale" unit="%" >}}
 <figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
@@ -67,6 +67,18 @@ The `--scale` helper set the `transform: scale()` property allowing you to trans
 </figure>
 {{< /helper-demo >}}
 
+#### \-\-scale-hvr
+The `--scale-hvr` helper set the `transform: scale()` property allowing you to transform an element scale on hover.
+
+{{< helper-demo property="scale-hvr" min="50" max="150" value="75" target="target-scale-hvr" unit="%" >}}
+<div class="hover-me">
+    <figure style="--maxw:300px; --br:5px; --pos:relative; --bg:#eee">
+        <figcaption id="target-scale-hvr" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; --scale-hvr: 75%;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </figcaption>
+    </figure>
+</div>
+{{< /helper-demo >}}
 
 #### \-\-rotate
 The `--rotate` helper set the `transform: rotate()` property allowing you to transform an element rotation.
