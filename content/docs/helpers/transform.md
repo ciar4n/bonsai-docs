@@ -91,6 +91,19 @@ The `--rotate` helper set the `transform: rotate()` property allowing you to tra
 </figure>
 {{< /helper-demo >}}
 
+#### \-\-rotate-hvr
+The `--rotate-hvr` helper set the `transform: rotate()` property allowing you to transform an element rotate on hover.
+
+{{< helper-demo property="rotate-hvr" min="-50" max="50" value="0" target="target-rotate-hvr" unit="deg" >}}
+<div class="hover-me">
+    <figure style="--maxw:150px; --br:5px; --pos:relative; --bg:#eee">
+        <figcaption id="target-rotate-hvr" style="--bg:rgba(0,0,0,.8); --c:white; --br:5px; --rotate-hvr: 0deg;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </figcaption>
+    </figure>
+</div>
+{{< /helper-demo >}}
+
 
 #### \-\-skew
 The `--skew` helper set the `transform: skew()` property allowing you to transform an element rotation.
