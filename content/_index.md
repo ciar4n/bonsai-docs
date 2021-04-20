@@ -140,7 +140,7 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="https://source.unsplash.com/b1Hg7QI-zcc/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
+          <img src="https://source.unsplash.com/6anudmpILw4/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0">Marcia Stanley</h5>
               <p style="--size: .85em">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
