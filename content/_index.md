@@ -209,7 +209,7 @@ bookToc: false
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
           <img src="https://source.unsplash.com/cNTK6s8Rurc/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
           <div style="--ml:1rem; --fx:1">
-              <h5 style="--mb:0 --weight:bold">Lorem ipsum dolor sit amet</h5>
+              <h5 style="--mb:0; --weight:bold">Lorem ipsum dolor sit amet</h5>
               <p style="--size: .85em; --op:.5">January 18, 2020</p>
           </div>
       </div>
