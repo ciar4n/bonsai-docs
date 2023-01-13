@@ -15,67 +15,6 @@ bookToc: false
 - All packed inside a gzipped size of just **8kb**
 - Drop n Build - No compiling required
 
-<br>
-
-### Classless Base Element Styling
-Before you even start adding class or style attributes, **Bonsai CSS** applies a base styling to your semantic HTML elements. Simply load **Bonsai CSS** in to your project and your base HTML elements will be beautifully styled with zero effort.
-
-<br>
-
-### Utility Complete CSS
-
-In terms of CSS frameworks, utilities commonly refer to a CSS class which applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide a complete set of utilities for the majority of CSS properties.
-
-- Super quick prototyping without leaving your HTML
-- CSS size remains constant as your project grows
-
-There is nothing new about the concept of utility complete CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bonsai however, is how these utilities are implemented. Traditionally utility complete frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS file size it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bonsai CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
-
-##### Style based utilities
-
-{{< highlight html "linenos=false" >}}
-<div style="--bg:var(--dark)"><div>
-<div style="--bg:#2A2A2A"><div>
-<div style="--bg:rgb(42,42,42)"><div>
-<div style="--bg:rgba(0,0,0,.8)"><div>
-{{< / highlight >}}
-
-<br>
-
-### Responsive design and media queries
-
-Where relevant utilities can be applied conditionally to each screensize. This allows you to apply utilities to specific screen size making responsive design a walk in the park.
-
-By default there are four breakpoints set in correspondence with the most common device resolutions.
-
-{{< highlight css "linenos=false" >}}
-/* Small '-sm' */
-@media (min-width: 640px) { ... }
-
-/* Medium '-md' */
-@media (min-width: 768px) { ... }
-
-/* Large '-lg' */
-@media (min-width: 1024px) { ... }
-
-/* Extra Large '-xl' */
-@media (min-width: 1280px) { ... }
-{{< / highlight >}}
-
-To assign a utility to a set screensize breakpoint simply prepend with a `-` followed by the breakpoint shorthand name. Media queries by default use a mobile-first approach, which as it sounds is designing for the smallest screen and working your way up.
-
-Consider the following example where `--d` is the Bonsai utility for the `display` CSS property. Button is `display:block` by default. `display:none` from medium size screens up.
-
-{{< highlight html "linenos=false" >}}
-<button style="--d:block; --d-md:none">Only visible on small screens</button>
-{{< / highlight >}}
-
-<br>
-
-<h2 style="--ta: center;">Discover limitless possibilities</h2>
-
-<br>
-
 <div style="--cc:1; --cc-sm:2; --cc-xl:3; --cg:1.5rem; --bg:#eee; --p:1.5rem; --pos:relative">
     <figure class="accent" style="--mb:1.5rem;">
         <img src="https://source.unsplash.com/e0qLqlrmEHk/340x220" alt="Aliquam erat volutpat">
@@ -378,3 +317,61 @@ Consider the following example where `--d` is the Bonsai utility for the `displa
       <h1 style="--ta:center;">Get creative with Bonsai CSS</h1>
     </div>
 </div>
+
+<br>
+
+
+### Classless Base Element Styling
+Before you even start adding class or style attributes, **Bonsai CSS** applies a base styling to your semantic HTML elements. Simply load **Bonsai CSS** in to your project and your base HTML elements will be beautifully styled with zero effort.
+
+<br>
+
+### Utility Complete CSS
+
+In terms of CSS frameworks, utilities commonly refer to a CSS class which applies a single CSS property to an element. For example a class name of `.bg-green` would apply `background-color: green` to that element. A **Utility Complete** framework provide a complete set of utilities for the majority of CSS properties.
+
+- Super quick prototyping without leaving your HTML
+- CSS size remains constant as your project grows
+
+There is nothing new about the concept of utility complete CSS and today you will find any number of utility first frameworks to pick from. What is unique about Bonsai however, is how these utilities are implemented. Traditionally utility complete frameworks include a rule for every common CSS property/value combination. Not only does this result in an incredibly large CSS file size it also means you are restricted to a set number of property/value combinations as defined by the framework developers. Bonsai CSS uses a different approach. Instead utilities are defined by just the property and you the developer define the value. Not only is the resulting CSS a fraction of the size, you also have full access to the CSS spec for each property.
+
+##### Style based utilities
+
+{{< highlight html "linenos=false" >}}
+<div style="--bg:var(--dark)"><div>
+<div style="--bg:#2A2A2A"><div>
+<div style="--bg:rgb(42,42,42)"><div>
+<div style="--bg:rgba(0,0,0,.8)"><div>
+{{< / highlight >}}
+
+<br>
+
+### Responsive design and media queries
+
+Where relevant utilities can be applied conditionally to each screensize. This allows you to apply utilities to specific screen size making responsive design a walk in the park.
+
+By default there are four breakpoints set in correspondence with the most common device resolutions.
+
+{{< highlight css "linenos=false" >}}
+/* Small '-sm' */
+@media (min-width: 640px) { ... }
+
+/* Medium '-md' */
+@media (min-width: 768px) { ... }
+
+/* Large '-lg' */
+@media (min-width: 1024px) { ... }
+
+/* Extra Large '-xl' */
+@media (min-width: 1280px) { ... }
+{{< / highlight >}}
+
+To assign a utility to a set screensize breakpoint simply prepend with a `-` followed by the breakpoint shorthand name. Media queries by default use a mobile-first approach, which as it sounds is designing for the smallest screen and working your way up.
+
+Consider the following example where `--d` is the Bonsai utility for the `display` CSS property. Button is `display:block` by default. `display:none` from medium size screens up.
+
+{{< highlight html "linenos=false" >}}
+<button style="--d:block; --d-md:none">Only visible on small screens</button>
+{{< / highlight >}}
+
+<h2 style="--ta: center;">Discover limitless possibilities</h2>
