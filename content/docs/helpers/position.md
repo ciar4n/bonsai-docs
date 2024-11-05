@@ -14,7 +14,7 @@ The `--inset` helper anchors absolutely positioned elements relative to all edge
 
 {{< helper-demo-inset property="inset" min="0" max="78" value="10" target="target-inset" unit="px" append=" --pos:absolute;" >}}
 <figure style="--maxw:300px; --br:5px; --of:hidden; --pos:relative">
-<img src="https://source.unsplash.com/9osthpRGzXk/300x300" alt="sample">
+<img src="/images/sample/9osthpRGzXk.jpg" alt="sample">
 <figcaption id="target-inset" style="--inset:10px; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </figcaption>
@@ -26,7 +26,7 @@ The `--inset-top` helper anchors absolutely positioned elements relative to top,
 
 {{< helper-demo-inset property="inset-top" min="0" max="78" value="10" target="target-inset-top" unit="px" append=" --pos:absolute;" >}}
 <figure style="--maxw:300px; --br:5px; --of:hidden; --pos:relative">
-<img src="https://source.unsplash.com/9osthpRGzXk/300x300" alt="sample">
+<img src="/images/sample/9osthpRGzXk.jpg" alt="sample">
 <figcaption id="target-inset-top" style="--inset-top:10px; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </figcaption>
@@ -38,7 +38,7 @@ The `--inset-bottom` helper anchors absolutely positioned elements relative to b
 
 {{< helper-demo-inset property="inset-bottom" min="0" max="78" value="10" target="target-inset-bottom" unit="px" append=" --pos:absolute;" >}}
 <figure style="--maxw:300px; --br:5px; --of:hidden; --pos:relative">
-<img src="https://source.unsplash.com/9osthpRGzXk/300x300" alt="sample">
+<img src="/images/sample/9osthpRGzXk.jpg" alt="sample">
 <figcaption id="target-inset-bottom" style="--inset-bottom:10px; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
 </figcaption>
@@ -51,7 +51,7 @@ The `--inset-top-left` helper anchors absolutely positioned elements relative to
 
 {{< helper-demo-inset property="inset-top-left" min="0" max="78" value="10" target="target-inset-top-left" unit="px" append=" --pos:absolute;" >}}
 <figure style="--maxw:300px; --br:5px; --of:hidden; --pos:relative">
-<img src="https://source.unsplash.com/9osthpRGzXk/300x300" alt="sample">
+<img src="/images/sample/9osthpRGzXk.jpg" alt="sample">
 <figcaption id="target-inset-top-left" style="--inset-top-left:10px; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
     Hello World!
 </figcaption>
@@ -64,7 +64,7 @@ The `--inset-top-right` helper anchors absolutely positioned elements relative t
 
 {{< helper-demo-inset property="inset-top-right" min="0" max="78" value="10" target="target-inset-top-right" unit="px" append=" --pos:absolute;" >}}
 <figure style="--maxw:300px; --br:5px; --of:hidden; --pos:relative">
-<img src="https://source.unsplash.com/9osthpRGzXk/300x300" alt="sample">
+<img src="/images/sample/9osthpRGzXk.jpg" alt="sample">
 <figcaption id="target-inset-top-right" style="--inset-top-right:10px; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
     Hello World!
 </figcaption>
@@ -76,7 +76,7 @@ The `--inset-bottom-left` helper anchors absolutely positioned elements relative
 
 {{< helper-demo-inset property="inset-bottom-left" min="0" max="78" value="10" target="target-inset-bottom-left" unit="px" append=" --pos:absolute;" >}}
 <figure style="--maxw:300px; --br:5px; --of:hidden; --pos:relative">
-<img src="https://source.unsplash.com/9osthpRGzXk/300x300" alt="sample">
+<img src="/images/sample/9osthpRGzXk.jpg" alt="sample">
 <figcaption id="target-inset-bottom-left" style="--inset-bottom-left:10px; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
     Hello World!
 </figcaption>
@@ -89,7 +89,7 @@ The `--inset-bottom-right` helper anchors absolutely positioned elements relativ
 
 {{< helper-demo-inset property="inset-bottom-right" min="0" max="78" value="10" target="target-inset-bottom-right" unit="px" append=" --pos:absolute;" >}}
 <figure style="--maxw:300px; --br:5px; --of:hidden; --pos:relative">
-<img src="https://source.unsplash.com/9osthpRGzXk/300x300" alt="sample">
+<img src="/images/sample/9osthpRGzXk.jpg" alt="sample">
 <figcaption id="target-inset-bottom-right" style="--inset-bottom-right:10px; --pos:absolute; --bg:rgba(0,0,0,.8); --c:white; --br:5px; ">
     Hello World!
 </figcaption>

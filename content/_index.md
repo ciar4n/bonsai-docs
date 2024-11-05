@@ -155,12 +155,12 @@ bookToc: false
         <h5 style="--m:0; --weight:bold">€90.00</h5>
       </div>
       <div style="--mb:1rem; --mt:3rem; --d:inline-block; --bi:avoid;">
-        <img src="/images/sample/mWYhrOiAgmA/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/mWYhrOiAgmA.jpg" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Consectetuer adipiscing elit</h6>
         <h5 style="--m:0; --weight:bold">€60.00</h5>
       </div>
       <div style="--d:inline-block; --bi:avoid;">
-        <img src="/images/sample/Pd585pphU-4/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/KriecpTIWgY.jpg" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Quisque volutpat mattis</h6>
         <h5 style="--m:0; --weight:bold">€120.00</h5>
       </div>
@@ -207,21 +207,21 @@ bookToc: false
     </div>
     <div style="--mb:1.5rem; --p:1rem">
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="/images/sample/cNTK6s8Rurc/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
+          <img src="/images/sample/cNTK6s8Rurc.jpg" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0; --weight:bold">Lorem ipsum dolor sit amet</h5>
               <p style="--size: .85em; --op:.5">January 18, 2020</p>
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="/images/sample/vKK6sWu_4YY/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
+          <img src="/images/sample/_aytz8Q9_kM.jpg" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0 --weight:bold"> Ut enim ad minim veniam</h5>
               <p style="--size: .85em; --op:.5">March 24, 2020</p>
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --my:.5rem">
-          <img src="/images/sample/2jyJLvWWQOk/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
+          <img src="/images/sample/2jyJLvWWQOk.jpg" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0 --weight:bold">Nemo enim ipsam voluptatem</h5>
               <p style="--size: .85em; --op:.5">Arpil 04, 2020</p>
@@ -268,16 +268,16 @@ bookToc: false
     </div>
     <div style="--d:grid; --gar:200px; --gg:10px;  --mb:1.5rem;">
       <div style="--gc:1/2; --gr:1/3;">
-        <img style="--h:100%; --objf:cover;" src="/images/sample/z9vnGEGZPjw/400x400" alt="Aliquam erat volutpat">
+        <img style="--h:100%; --objf:cover;" src="/images/sample/z9vnGEGZPjw.jpg" alt="Aliquam erat volutpat">
       </div>
       <div style="--gc:2/3; --gr:1/2;">
-        <img style="--h:100%; --objf:cover;" src="/images/sample/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover;" src="/images/sample/jSVBtxVAV8U.jpg" alt="Aliquam erat volutpat">   
       </div>
       <div style="--gc:1/2; --gr:3/4;">
-        <img style="--h:100%; --objf:cover;" src="/images/sample/gnG1q2d0mbA/400x400" alt="Aliquam erat volutpat">
+        <img style="--h:100%; --objf:cover;" src="/images/sample/6B06cgXQcwM.jpg" alt="Aliquam erat volutpat">
       </div>
       <div style="--gc:2/3; --gr:2/4;">
-        <img style="--h:100%; --objf:cover;" src="/images/sample/Dz6HuHE2Ki0/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover;" src="/images/sample/Dz6HuHE2Ki0.jpg" alt="Aliquam erat volutpat">   
       </div>
     </div>
     <div class="accent" style="--bg:white; --p:1.5rem; --mb:1.5rem;">
@@ -292,7 +292,7 @@ bookToc: false
       </div>
     </div>
     <div class="accent primary" style="--d:flex; --fd:column; --mb:1.5rem;">
-        <img src="/images/sample/-4kwrnRrk-E/340x220" alt="Aliquam erat volutpat">
+        <img src="/images/sample/-4kwrnRrk-E.jpg" alt="Aliquam erat volutpat">
         <a href="#" style="--c:white; --px:10px; --ml:auto; --size:2rem" aria-label="Sample Link">
           <svg style="--ml:auto;" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </a>
@@ -306,7 +306,7 @@ bookToc: false
     </div>
     <div style="--d:grid; --gtc:auto 2.2rem; --mb:1.5rem;">
       <div style="--gc:1/2;">
-        <img style="--h:100%; --objf:cover" src="/images/sample/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover" src="/images/sample/NnthSp3BzBY.jpg" alt="Aliquam erat volutpat">   
       </div>
       <div style="--gc:2/3">
         <h3 style="--wm:vertical-lr">A Perfect Place</h3>

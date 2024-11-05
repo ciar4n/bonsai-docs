@@ -16,7 +16,7 @@ The `--grad` helper adds a linear gradient on the background of an element. By i
     <div style="--p:1rem; --fx:1; --bg:#eee; --as:flex-start; --maxw:600px;">
         <div style="--fx:1; --p:3rem; --mb:.5rem; --d:flex; --jc:center;">
             <figure style="--br:5px; --of:hidden; --grad:0deg; --pos:relative">
-                <img src="https://source.unsplash.com/Nho-1hXd3d4/300x300" alt="sample">
+                <img src="/images/sample/Nho-1hXd3d4.jpg" alt="sample">
                 <figcaption id="target-grad" style="--inset:0; --pos:absolute; --grad:180deg; --grad-color:#3188C1;"></figcaption>
             </figure>
         </div>
