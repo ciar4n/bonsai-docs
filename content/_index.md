@@ -25,7 +25,7 @@ bookToc: false
         </figcaption>
     </figure>
     <figure class="accent" style="--mb:1.5rem;">
-        <img src="https://source.unsplash.com/9UVmlIb0wJU/130x130" alt="Aliquam erat volutpat" style="--mt:2rem; --mr:auto;--ml:auto;--br:50%">
+        <img src="/images/sample/9UVmlIb0wJU.jpg" alt="Aliquam erat volutpat" style="--mt:2rem; --mr:auto;--ml:auto;--br:50%">
         <figcaption style="--ta:center">
           <h4>Sarah Drake</h4>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
@@ -33,10 +33,10 @@ bookToc: false
     </figure>
     <div style="--d:grid; --mb:1.5rem;">
       <div style="--gc:1/4; --gr:1/4">
-        <img src="https://source.unsplash.com/IP1rSwr8R6o/400x400" alt="Aliquam erat volutpat">
+        <img src="/images/sample/IP1rSwr8R6o.jpg" alt="Aliquam erat volutpat">
       </div>
       <div style="--gc:2/5; --gr:2/5;">
-        <img src="https://source.unsplash.com/5WqxUM2cERo/400x400" alt="Aliquam erat volutpat">   
+        <img src="/images/sample/5WqxUM2cERo.jpg" alt="Aliquam erat volutpat">   
       </div>
     </div>
     <figure class="accent" style="--mb:1.5rem; --w:100%">
@@ -52,41 +52,41 @@ bookToc: false
     </figure>
     <figure class="accent" style="--mb:1.5rem;">
         <figcaption>
-            <img src="https://source.unsplash.com/1IXs-hiCqts/50x50" alt="Aliquam erat volutpat" style="--br: 4px; --mt:1rem">
+            <img src="/images/sample/ooO7Y8z4cE.jpg" alt="Aliquam erat volutpat" style="--br: 4px; --mt:1rem">
             <h4>Donec odio</h4>
             <p>Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </p>
         </figcaption>
     </figure>
     <figure style="--mb:1.5rem;">
-        <img src="https://source.unsplash.com/IP1rSwr8R6o/340x280" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/jHia0eUziUA.jpg" alt="Aliquam erat volutpat" style="--br:4px">
         <figcaption class="accent" style="--mt:-3rem;--ml:1rem;--mr:1rem;--pb:2rem">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
         </figcaption>
     </figure>
     <div class="accent" style="--mb:1.5rem; --p:1rem">
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="https://source.unsplash.com/4nulm-JUYFo/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
+          <img src="/images/sample/4nulm-JUYFo.jpg" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0">Jane Doe</h5>
               <p style="--size: .85em">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="https://source.unsplash.com/6anudmpILw4/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
+          <img src="/images/sample/DItYlc26zVI.jpg" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0">Viktor Jones</h5>
               <p style="--size: .85em">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="https://source.unsplash.com/6anudmpILw4/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
+          <img src="/images/sample/Jhsic8gSc0o.jpg" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0">Marcia Stanley</h5>
               <p style="--size: .85em">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --mt:.5rem">
-          <img src="https://source.unsplash.com/95UF6LXe-Lo/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
+          <img src="/images/sample/95UF6LXe-Lo/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0">Giovanni Santana</h5>
               <p style="--size: .85em">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
@@ -94,7 +94,7 @@ bookToc: false
       </div>
     </div>
     <figure class="accent" style="--mb:1.5rem;">
-      <img src="https://source.unsplash.com/0gTyPRZXnho/340x220" alt="Aliquam erat volutpat">
+      <img src="/images/sample/0gTyPRZXnho/340x220" alt="Aliquam erat volutpat">
       <figcaption>
         <h4 style="--m:0">Nullam malesuada erat</h4>
         <span style="--size:.85em; --c:#777">18 hours ago | <a href="#">Entertainment</a></span>
@@ -113,7 +113,7 @@ bookToc: false
     </span>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
         <div style="--pos:absolute; --inset:0">
-          <img style="--objf:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/eluzJSfkNCk/300x400" alt="Aliquam erat volutpat">
+          <img style="--objf:cover; --h:100%; --w:100%;" src="/images/sample/eluzJSfkNCk/300x400" alt="Aliquam erat volutpat">
         </div>
         <div style="--p:1rem">
           <button class="white" style="--w:100%" aria-label="Sample Button">Sign in</button>
@@ -127,7 +127,7 @@ bookToc: false
     </div>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
       <div style="--pos:absolute; --inset:0">
-        <img style="--objf:cover; --h:100%; --w:100%;" src="https://source.unsplash.com/aExT3y92x5o/400x350" alt="Aliquam erat volutpat">
+        <img style="--objf:cover; --h:100%; --w:100%;" src="/images/sample/aExT3y92x5o/400x350" alt="Aliquam erat volutpat">
       </div>
       <button style="--pos:absolute; --top:8px; --right:0; --bg:var(--primary); --p:8px 5px;" aria-label="Sample Button">
         <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
@@ -145,22 +145,22 @@ bookToc: false
     </div>
     <div class="accent" style="--mb:1.5rem; --p:1rem; --cc:2;">
       <div style="--mb:1rem; --d:inline-block; --bi:avoid;">
-        <img src="https://source.unsplash.com/4nulm-JUYFo/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/4nulm-JUYFo/120x120" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Quisque volutpat</h6>
         <h5 style="--m:0; --weight:bold">€30.00</h5>
       </div>
       <div style="--mb:1rem; --d:inline-block; --bi:avoid;">
-        <img src="https://source.unsplash.com/juESZxMhtXk/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/juESZxMhtXk/120x120" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Lorem ipsum dolor sit amet</h6>
         <h5 style="--m:0; --weight:bold">€90.00</h5>
       </div>
       <div style="--mb:1rem; --mt:3rem; --d:inline-block; --bi:avoid;">
-        <img src="https://source.unsplash.com/mWYhrOiAgmA/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/mWYhrOiAgmA/120x120" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Consectetuer adipiscing elit</h6>
         <h5 style="--m:0; --weight:bold">€60.00</h5>
       </div>
       <div style="--d:inline-block; --bi:avoid;">
-        <img src="https://source.unsplash.com/Pd585pphU-4/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/Pd585pphU-4/120x120" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Quisque volutpat mattis</h6>
         <h5 style="--m:0; --weight:bold">€120.00</h5>
       </div>
@@ -207,21 +207,21 @@ bookToc: false
     </div>
     <div style="--mb:1.5rem; --p:1rem">
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="https://source.unsplash.com/cNTK6s8Rurc/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
+          <img src="/images/sample/cNTK6s8Rurc/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0; --weight:bold">Lorem ipsum dolor sit amet</h5>
               <p style="--size: .85em; --op:.5">January 18, 2020</p>
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --bb:1px solid #ddd; --my:.5rem">
-          <img src="https://source.unsplash.com/vKK6sWu_4YY/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
+          <img src="/images/sample/vKK6sWu_4YY/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0 --weight:bold"> Ut enim ad minim veniam</h5>
               <p style="--size: .85em; --op:.5">March 24, 2020</p>
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --my:.5rem">
-          <img src="https://source.unsplash.com/2jyJLvWWQOk/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
+          <img src="/images/sample/2jyJLvWWQOk/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:var(--border-radius)">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0 --weight:bold">Nemo enim ipsam voluptatem</h5>
               <p style="--size: .85em; --op:.5">Arpil 04, 2020</p>
@@ -251,7 +251,7 @@ bookToc: false
     </div>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
       <div style="--pos:absolute; --inset:0">
-        <img style="--objf:cover; --h:100%; --w:100%; --op:.7" src="https://source.unsplash.com/76-58HpxvpQ/350x400" alt="Image">
+        <img style="--objf:cover; --h:100%; --w:100%; --op:.7" src="/images/sample/76-58HpxvpQ/350x400" alt="Image">
       </div>
       <button class="white" style="--pos:absolute; --top:8px; --right:0; --p:8px 5px; --bc:transparent" aria-label="Sample Button">
         <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
@@ -268,16 +268,16 @@ bookToc: false
     </div>
     <div style="--d:grid; --gar:200px; --gg:10px;  --mb:1.5rem;">
       <div style="--gc:1/2; --gr:1/3;">
-        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/z9vnGEGZPjw/400x400" alt="Aliquam erat volutpat">
+        <img style="--h:100%; --objf:cover;" src="/images/sample/z9vnGEGZPjw/400x400" alt="Aliquam erat volutpat">
       </div>
       <div style="--gc:2/3; --gr:1/2;">
-        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover;" src="/images/sample/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
       </div>
       <div style="--gc:1/2; --gr:3/4;">
-        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/gnG1q2d0mbA/400x400" alt="Aliquam erat volutpat">
+        <img style="--h:100%; --objf:cover;" src="/images/sample/gnG1q2d0mbA/400x400" alt="Aliquam erat volutpat">
       </div>
       <div style="--gc:2/3; --gr:2/4;">
-        <img style="--h:100%; --objf:cover;" src="https://source.unsplash.com/Dz6HuHE2Ki0/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover;" src="/images/sample/Dz6HuHE2Ki0/400x400" alt="Aliquam erat volutpat">   
       </div>
     </div>
     <div class="accent" style="--bg:white; --p:1.5rem; --mb:1.5rem;">
@@ -292,7 +292,7 @@ bookToc: false
       </div>
     </div>
     <div class="accent primary" style="--d:flex; --fd:column; --mb:1.5rem;">
-        <img src="https://source.unsplash.com/-4kwrnRrk-E/340x220" alt="Aliquam erat volutpat">
+        <img src="/images/sample/-4kwrnRrk-E/340x220" alt="Aliquam erat volutpat">
         <a href="#" style="--c:white; --px:10px; --ml:auto; --size:2rem" aria-label="Sample Link">
           <svg style="--ml:auto;" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </a>
@@ -306,7 +306,7 @@ bookToc: false
     </div>
     <div style="--d:grid; --gtc:auto 2.2rem; --mb:1.5rem;">
       <div style="--gc:1/2;">
-        <img style="--h:100%; --objf:cover" src="https://source.unsplash.com/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
+        <img style="--h:100%; --objf:cover" src="/images/sample/jSVBtxVAV8U/400x400" alt="Aliquam erat volutpat">   
       </div>
       <div style="--gc:2/3">
         <h3 style="--wm:vertical-lr">A Perfect Place</h3>
