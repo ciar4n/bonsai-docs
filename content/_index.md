@@ -52,7 +52,7 @@ bookToc: false
     </figure>
     <figure class="accent" style="--mb:1.5rem;">
         <figcaption>
-            <img src="/images/sample/ooO7Y8z4cE.jpg" alt="Aliquam erat volutpat" style="--br: 4px; --mt:1rem">
+            <img src="/images/sample/HumE-iC2wLU.jpg" alt="Aliquam erat volutpat" style="--br: 4px; --mt:1rem">
             <h4>Donec odio</h4>
             <p>Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </p>
         </figcaption>
@@ -251,7 +251,7 @@ bookToc: false
     </div>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
       <div style="--pos:absolute; --inset:0">
-        <img style="--objf:cover; --h:100%; --w:100%; --op:.7" src="/images/sample/76-58HpxvpQ/350x400" alt="Image">
+        <img style="--objf:cover; --h:100%; --w:100%; --op:.7" src="/images/sample/NnthSp3BzBY.jpg" alt="Image">
       </div>
       <button class="white" style="--pos:absolute; --top:8px; --right:0; --p:8px 5px; --bc:transparent" aria-label="Sample Button">
         <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>

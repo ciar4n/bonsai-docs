@@ -27,7 +27,7 @@ The `--levitate` helper translates the element vertically and adds a smooth box 
 
 {{< helper-demo property="levitate" min="0" max="15" value="4" target="target-levitate" >}}
 <figure id="target-levitate" style="--maxw:300px; --br:5px; --bg:#fff; --of:hidden; --levitate:4">
-<img src="https://source.unsplash.com/aa-AS_i4Sn0/600x300" alt="sample">
+<img src="/images/sample/HumE-iC2wLU.jpg" alt="sample">
 <figcaption>
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
 </figcaption>
