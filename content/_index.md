@@ -86,7 +86,7 @@ bookToc: false
           </div>
       </div>
       <div style="--d:flex; --ai:flex-start; --mt:.5rem">
-          <img src="/images/sample/95UF6LXe-Lo/55x55" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
+          <img src="/images/sample/95UF6LXe-Lo.jpg" alt="Aliquam erat volutpat" style="--mt:1rem; --br:50%">
           <div style="--ml:1rem; --fx:1">
               <h5 style="--mb:0">Giovanni Santana</h5>
               <p style="--size: .85em">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
@@ -94,7 +94,7 @@ bookToc: false
       </div>
     </div>
     <figure class="accent" style="--mb:1.5rem;">
-      <img src="/images/sample/0gTyPRZXnho/340x220" alt="Aliquam erat volutpat">
+      <img src="/images/sample/0gTyPRZXnho.jpg" alt="Aliquam erat volutpat">
       <figcaption>
         <h4 style="--m:0">Nullam malesuada erat</h4>
         <span style="--size:.85em; --c:#777">18 hours ago | <a href="#">Entertainment</a></span>
@@ -113,7 +113,7 @@ bookToc: false
     </span>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
         <div style="--pos:absolute; --inset:0">
-          <img style="--objf:cover; --h:100%; --w:100%;" src="/images/sample/eluzJSfkNCk/300x400" alt="Aliquam erat volutpat">
+          <img style="--objf:cover; --h:100%; --w:100%;" src="/images/sample/eluzJSfkNCk.jpg" alt="Aliquam erat volutpat">
         </div>
         <div style="--p:1rem">
           <button class="white" style="--w:100%" aria-label="Sample Button">Sign in</button>
@@ -127,7 +127,7 @@ bookToc: false
     </div>
     <div class="accent primary" style="--mb:1.5rem; --pos:relative; --pt: 75%;">
       <div style="--pos:absolute; --inset:0">
-        <img style="--objf:cover; --h:100%; --w:100%;" src="/images/sample/aExT3y92x5o/400x350" alt="Aliquam erat volutpat">
+        <img style="--objf:cover; --h:100%; --w:100%;" src="/images/sample/aExT3y92x5o.jpg" alt="Aliquam erat volutpat">
       </div>
       <button style="--pos:absolute; --top:8px; --right:0; --bg:var(--primary); --p:8px 5px;" aria-label="Sample Button">
         <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
@@ -145,12 +145,12 @@ bookToc: false
     </div>
     <div class="accent" style="--mb:1.5rem; --p:1rem; --cc:2;">
       <div style="--mb:1rem; --d:inline-block; --bi:avoid;">
-        <img src="/images/sample/4nulm-JUYFo/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/4nulm-JUYFo2.jpg" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Quisque volutpat</h6>
         <h5 style="--m:0; --weight:bold">€30.00</h5>
       </div>
       <div style="--mb:1rem; --d:inline-block; --bi:avoid;">
-        <img src="/images/sample/juESZxMhtXk/120x120" alt="Aliquam erat volutpat" style="--br:4px">
+        <img src="/images/sample/juESZxMhtXk.jpg" alt="Aliquam erat volutpat" style="--br:4px">
         <h6 style="--m:0">Lorem ipsum dolor sit amet</h6>
         <h5 style="--m:0; --weight:bold">€90.00</h5>
       </div>
