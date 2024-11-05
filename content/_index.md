@@ -17,7 +17,7 @@ bookToc: false
 
 <div style="--cc:1; --cc-sm:2; --cc-xl:3; --cg:1.5rem; --bg:#eee; --p:1.5rem; --pos:relative">
     <figure class="accent" style="--mb:1.5rem;">
-        <img src="https://source.unsplash.com/e0qLqlrmEHk/340x220" alt="Aliquam erat volutpat">
+        <img src="/images/sample/e0qLqlrmEHk.jpg" alt="Aliquam erat volutpat">
         <figcaption>
           <h4>Nullam malesuada erat</h4>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </p>
